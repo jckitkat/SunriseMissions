@@ -1,0 +1,2785 @@
+{
+ "meta": {
+  "activity": "mission_towerfall",
+  "scenario": "MISSION_TOWERFALL",
+  "initial": "",
+  "mode": "campaign"
+ },
+ "inputs": [
+  {
+   "id": "i1",
+   "kind": "Squad",
+   "name": "sq_shaxx",
+   "key": "SQ_SHAXX"
+  },
+  {
+   "id": "i2",
+   "kind": "Squad",
+   "name": "sq_frame",
+   "key": "SQ_FRAME"
+  },
+  {
+   "id": "i3",
+   "kind": "Squad",
+   "name": "sq_cayde",
+   "key": "SQ_CAYDE"
+  },
+  {
+   "id": "i4",
+   "kind": "Squad",
+   "name": "sq_ikora_80b50ca7",
+   "key": "SQ_IKORA_80B50CA7"
+  },
+  {
+   "id": "i5",
+   "kind": "Squad",
+   "name": "sq_legionarya",
+   "key": "SQ_LEGIONARYA"
+  },
+  {
+   "id": "i6",
+   "kind": "Squad",
+   "name": "sq_legionaryb",
+   "key": "SQ_LEGIONARYB"
+  },
+  {
+   "id": "i7",
+   "kind": "Squad",
+   "name": "sq_legionaryc",
+   "key": "SQ_LEGIONARYC"
+  },
+  {
+   "id": "i8",
+   "kind": "Squad",
+   "name": "sq_red_guard",
+   "key": "SQ_RED_GUARD"
+  },
+  {
+   "id": "i9",
+   "kind": "Squad",
+   "name": "sq_red_guard_ads",
+   "key": "SQ_RED_GUARD_ADS"
+  },
+  {
+   "id": "i10",
+   "kind": "Squad",
+   "name": "sq_frame_fake_fight",
+   "key": "SQ_FRAME_FAKE_FIGHT"
+  },
+  {
+   "id": "i11",
+   "kind": "Squad",
+   "name": "sq_red_guard_fake_fight",
+   "key": "SQ_RED_GUARD_FAKE_FIGHT"
+  },
+  {
+   "id": "i12",
+   "kind": "Squad",
+   "name": "sq_civilian_catatonic",
+   "key": "SQ_CIVILIAN_CATATONIC"
+  },
+  {
+   "id": "i13",
+   "kind": "Squad",
+   "name": "sq_civilian_kneel",
+   "key": "SQ_CIVILIAN_KNEEL"
+  },
+  {
+   "id": "i14",
+   "kind": "Squad",
+   "name": "sq_civilian_stand",
+   "key": "SQ_CIVILIAN_STAND"
+  },
+  {
+   "id": "i15",
+   "kind": "Squad",
+   "name": "sq_civilian_wall_sit_a",
+   "key": "SQ_CIVILIAN_WALL_SIT_A"
+  },
+  {
+   "id": "i16",
+   "kind": "Squad",
+   "name": "sq_civilian_wall_sit_b",
+   "key": "SQ_CIVILIAN_WALL_SIT_B"
+  },
+  {
+   "id": "i17",
+   "kind": "Squad",
+   "name": "sq_civilian_wall_sit_c",
+   "key": "SQ_CIVILIAN_WALL_SIT_C"
+  },
+  {
+   "id": "i18",
+   "kind": "Squad",
+   "name": "sq_civilian_ground_1",
+   "key": "SQ_CIVILIAN_GROUND_1"
+  },
+  {
+   "id": "i19",
+   "kind": "Squad",
+   "name": "sq_civilian_ground_2",
+   "key": "SQ_CIVILIAN_GROUND_2"
+  },
+  {
+   "id": "i20",
+   "kind": "Squad",
+   "name": "sq_civilian_on_knees_crying",
+   "key": "SQ_CIVILIAN_ON_KNEES_CRYING"
+  },
+  {
+   "id": "i21",
+   "kind": "Squad",
+   "name": "sq_civilian_hero_moment",
+   "key": "SQ_CIVILIAN_HERO_MOMENT"
+  },
+  {
+   "id": "i23",
+   "kind": "Squad",
+   "name": "squad_first_contact_cabal",
+   "key": "SQUAD_FIRST_CONTACT_CABAL"
+  },
+  {
+   "id": "i24",
+   "kind": "Squad",
+   "name": "squad_first_contact_cabal_backup_a",
+   "key": "SQUAD_FIRST_CONTACT_CABAL_BACKUP_A"
+  },
+  {
+   "id": "i25",
+   "kind": "Squad",
+   "name": "squad_first_contact_cabal_backup_b",
+   "key": "SQUAD_FIRST_CONTACT_CABAL_BACKUP_B"
+  },
+  {
+   "id": "i26",
+   "kind": "Squad",
+   "name": "sq_cabal_hero_moment",
+   "key": "SQ_CABAL_HERO_MOMENT"
+  },
+  {
+   "id": "i27",
+   "kind": "Squad",
+   "name": "sq_cabal_hero_moment_b",
+   "key": "SQ_CABAL_HERO_MOMENT_B"
+  },
+  {
+   "id": "i28",
+   "kind": "Cue",
+   "name": "cue_4",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_4"
+  },
+  {
+   "id": "i29",
+   "kind": "Cue",
+   "name": "cue_5",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_5"
+  },
+  {
+   "id": "i30",
+   "kind": "Slot",
+   "name": "pt_drop_pod",
+   "key": "PT_DROP_POD"
+  },
+  {
+   "id": "i31",
+   "kind": "Slot",
+   "name": "obj_cabal_first_contact",
+   "key": "OBJ_CABAL_FIRST_CONTACT"
+  },
+  {
+   "id": "i35",
+   "kind": "Squad",
+   "name": "sq_centurion_intro",
+   "key": "SQ_CENTURION_INTRO"
+  },
+  {
+   "id": "i36",
+   "kind": "Squad",
+   "name": "sq_centurion_intro_rush",
+   "key": "SQ_CENTURION_INTRO_RUSH"
+  },
+  {
+   "id": "i37",
+   "kind": "Squad",
+   "name": "sq_centurion_intro_backup",
+   "key": "SQ_CENTURION_INTRO_BACKUP"
+  },
+  {
+   "id": "i38",
+   "kind": "Slot",
+   "name": "pt_centurion_intro",
+   "key": "PT_CENTURION_INTRO"
+  },
+  {
+   "id": "i39",
+   "kind": "Slot",
+   "name": "obj_centurion_intro",
+   "key": "OBJ_CENTURION_INTRO"
+  },
+  {
+   "id": "i41",
+   "kind": "Slot",
+   "name": "d_underwatch_collapsing_wall",
+   "key": "D_UNDERWATCH_COLLAPSING_WALL"
+  },
+  {
+   "id": "i42",
+   "kind": "Slot",
+   "name": "pt_wall_explode",
+   "key": "PT_WALL_EXPLODE"
+  },
+  {
+   "id": "i45",
+   "kind": "Squad",
+   "name": "sq_frame_post_gun",
+   "key": "SQ_FRAME_POST_GUN"
+  },
+  {
+   "id": "i46",
+   "kind": "Squad",
+   "name": "sq_red_guard_post_gun",
+   "key": "SQ_RED_GUARD_POST_GUN"
+  },
+  {
+   "id": "i47",
+   "kind": "Squad",
+   "name": "sq_red_guard_post_gun_jump",
+   "key": "SQ_RED_GUARD_POST_GUN_JUMP"
+  },
+  {
+   "id": "i48",
+   "kind": "Slot",
+   "name": "pt_postgun",
+   "key": "PT_POSTGUN"
+  },
+  {
+   "id": "i49",
+   "kind": "Slot",
+   "name": "obj_post_gun",
+   "key": "OBJ_POST_GUN"
+  },
+  {
+   "id": "i51",
+   "kind": "Squad",
+   "name": "sq_military_hallway_destruction",
+   "key": "SQ_MILITARY_HALLWAY_DESTRUCTION"
+  },
+  {
+   "id": "i52",
+   "kind": "Squad",
+   "name": "sq_hangar_overlook_a_a",
+   "key": "SQ_HANGAR_OVERLOOK_A_A"
+  },
+  {
+   "id": "i53",
+   "kind": "Squad",
+   "name": "sq_hangar_overlook_a_a_cent",
+   "key": "SQ_HANGAR_OVERLOOK_A_A_CENT"
+  },
+  {
+   "id": "i54",
+   "kind": "Squad",
+   "name": "sq_hangar_overlook_a_b",
+   "key": "SQ_HANGAR_OVERLOOK_A_B"
+  },
+  {
+   "id": "i55",
+   "kind": "Squad",
+   "name": "sq_hangar_overlook_a_c",
+   "key": "SQ_HANGAR_OVERLOOK_A_C"
+  },
+  {
+   "id": "i56",
+   "kind": "Squad",
+   "name": "hangar_block_a",
+   "key": "SQ_HANGAR_OVERLOOK_B_A"
+  },
+  {
+   "id": "i57",
+   "kind": "Squad",
+   "name": "hangar_block_b",
+   "key": "SQ_HANGAR_OVERLOOK_B_B"
+  },
+  {
+   "id": "i58",
+   "kind": "Squad",
+   "name": "hangar_block_c",
+   "key": "SQ_HANGAR_OVERLOOK_B_C"
+  },
+  {
+   "id": "i59",
+   "kind": "Squad",
+   "name": "sq_hangar_overlook_sniper",
+   "key": "SQ_HANGAR_OVERLOOK_SNIPER"
+  },
+  {
+   "id": "i60",
+   "kind": "Squad",
+   "name": "sq_hangar_a_a",
+   "key": "SQ_HANGAR_A_A"
+  },
+  {
+   "id": "i61",
+   "kind": "Squad",
+   "name": "sq_hangar_a_a_flank",
+   "key": "SQ_HANGAR_A_A_FLANK"
+  },
+  {
+   "id": "i62",
+   "kind": "Squad",
+   "name": "sq_hangar_a_b",
+   "key": "SQ_HANGAR_A_B"
+  },
+  {
+   "id": "i63",
+   "kind": "Squad",
+   "name": "sq_hangar_a_b_sniper",
+   "key": "SQ_HANGAR_A_B_SNIPER"
+  },
+  {
+   "id": "i64",
+   "kind": "Squad",
+   "name": "sq_hangar_fodder_a",
+   "key": "SQ_HANGAR_FODDER_A"
+  },
+  {
+   "id": "i65",
+   "kind": "Squad",
+   "name": "sq_hangar_fodder_b",
+   "key": "SQ_HANGAR_FODDER_B"
+  },
+  {
+   "id": "i66",
+   "kind": "Squad",
+   "name": "sq_hangar_fodder_c",
+   "key": "SQ_HANGAR_FODDER_C"
+  },
+  {
+   "id": "i67",
+   "kind": "Squad",
+   "name": "sq_friendlies_early",
+   "key": "SQ_FRIENDLIES_EARLY"
+  },
+  {
+   "id": "i68",
+   "kind": "Squad",
+   "name": "sq_friendlies_early_upper",
+   "key": "SQ_FRIENDLIES_EARLY_UPPER"
+  },
+  {
+   "id": "i69",
+   "kind": "Squad",
+   "name": "sq_red_guard_fake_fight_a",
+   "key": "SQ_RED_GUARD_FAKE_FIGHT_A"
+  },
+  {
+   "id": "i70",
+   "kind": "Squad",
+   "name": "sq_red_guard_fake_fight_b",
+   "key": "SQ_RED_GUARD_FAKE_FIGHT_B"
+  },
+  {
+   "id": "i71",
+   "kind": "Squad",
+   "name": "sq_red_guard_fake_fight_c",
+   "key": "SQ_RED_GUARD_FAKE_FIGHT_C"
+  },
+  {
+   "id": "i72",
+   "kind": "Squad",
+   "name": "sq_frame_cover_a",
+   "key": "SQ_FRAME_COVER_A"
+  },
+  {
+   "id": "i73",
+   "kind": "Squad",
+   "name": "sq_frame_cover_b",
+   "key": "SQ_FRAME_COVER_B"
+  },
+  {
+   "id": "i74",
+   "kind": "Squad",
+   "name": "sq_frame_cover_c",
+   "key": "SQ_FRAME_COVER_C"
+  },
+  {
+   "id": "i75",
+   "kind": "Squad",
+   "name": "sq_frame_throw_a",
+   "key": "SQ_FRAME_THROW_A"
+  },
+  {
+   "id": "i76",
+   "kind": "Squad",
+   "name": "sq_red_guard_throw_a",
+   "key": "SQ_RED_GUARD_THROW_A"
+  },
+  {
+   "id": "i77",
+   "kind": "Slot",
+   "name": "pt_hangar_spawn",
+   "key": "PT_HANGAR_SPAWN"
+  },
+  {
+   "id": "i78",
+   "kind": "Slot",
+   "name": "obj_hangar",
+   "key": "OBJ_HANGAR"
+  },
+  {
+   "id": "i80",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_1",
+   "key": "SQUAD_KILL_CABAL_1"
+  },
+  {
+   "id": "i81",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_2",
+   "key": "SQUAD_KILL_CABAL_2"
+  },
+  {
+   "id": "i82",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_3",
+   "key": "SQUAD_KILL_CABAL_3"
+  },
+  {
+   "id": "i83",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_4",
+   "key": "SQUAD_KILL_CABAL_4"
+  },
+  {
+   "id": "i84",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_5",
+   "key": "SQUAD_KILL_CABAL_5"
+  },
+  {
+   "id": "i85",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_6",
+   "key": "SQUAD_KILL_CABAL_6"
+  },
+  {
+   "id": "i86",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_7",
+   "key": "SQUAD_KILL_CABAL_7"
+  },
+  {
+   "id": "i87",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_8",
+   "key": "SQUAD_KILL_CABAL_8"
+  },
+  {
+   "id": "i88",
+   "kind": "Squad",
+   "name": "squad_cabal_dropoff_1",
+   "key": "SQUAD_CABAL_DROPOFF_1"
+  },
+  {
+   "id": "i89",
+   "kind": "Slot",
+   "name": "pt_plaza_spawn_init",
+   "key": "PT_PLAZA_SPAWN_INIT"
+  },
+  {
+   "id": "i90",
+   "kind": "Slot",
+   "name": "obj_plaza_kill_cabal",
+   "key": "OBJ_PLAZA_KILL_CABAL"
+  },
+  {
+   "id": "i92",
+   "kind": "Squad",
+   "name": "sq_zavala",
+   "key": "SQ_ZAVALA"
+  },
+  {
+   "id": "i93",
+   "kind": "Squad",
+   "name": "sq_plaza_interim_a_a",
+   "key": "SQ_PLAZA_INTERIM_A_A"
+  },
+  {
+   "id": "i94",
+   "kind": "Squad",
+   "name": "sq_plaza_interim_a_b",
+   "key": "SQ_PLAZA_INTERIM_A_B"
+  },
+  {
+   "id": "i95",
+   "kind": "Slot",
+   "name": "pt_plaza_zavala_meet",
+   "key": "PT_PLAZA_ZAVALA_MEET"
+  },
+  {
+   "id": "i97",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_start_a",
+   "key": "SQ_PLAZA_REINFORCE_START_A"
+  },
+  {
+   "id": "i98",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_start_b",
+   "key": "SQ_PLAZA_REINFORCE_START_B"
+  },
+  {
+   "id": "i99",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_a_a",
+   "key": "SQ_PLAZA_REINFORCE_A_A"
+  },
+  {
+   "id": "i100",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_a_a_extra",
+   "key": "SQ_PLAZA_REINFORCE_A_A_EXTRA"
+  },
+  {
+   "id": "i101",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_a_b",
+   "key": "SQ_PLAZA_REINFORCE_A_B"
+  },
+  {
+   "id": "i102",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_a_c",
+   "key": "SQ_PLAZA_REINFORCE_A_C"
+  },
+  {
+   "id": "i103",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_a_d",
+   "key": "SQ_PLAZA_REINFORCE_A_D"
+  },
+  {
+   "id": "i104",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_a_d_extra",
+   "key": "SQ_PLAZA_REINFORCE_A_D_EXTRA"
+  },
+  {
+   "id": "i105",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_b_a",
+   "key": "SQ_PLAZA_REINFORCE_B_A"
+  },
+  {
+   "id": "i106",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_b_a_extra",
+   "key": "SQ_PLAZA_REINFORCE_B_A_EXTRA"
+  },
+  {
+   "id": "i107",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_b_b",
+   "key": "SQ_PLAZA_REINFORCE_B_B"
+  },
+  {
+   "id": "i108",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_b_b_extra",
+   "key": "SQ_PLAZA_REINFORCE_B_B_EXTRA"
+  },
+  {
+   "id": "i109",
+   "kind": "Cue",
+   "name": "cue_52",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_52"
+  },
+  {
+   "id": "i110",
+   "kind": "Slot",
+   "name": "pt_defend",
+   "key": "PT_DEFEND"
+  },
+  {
+   "id": "i111",
+   "kind": "Slot",
+   "name": "obj_plaza_reinforce",
+   "key": "OBJ_PLAZA_REINFORCE"
+  },
+  {
+   "id": "i114",
+   "kind": "Squad",
+   "name": "sq_bazaar_start",
+   "key": "SQ_BAZAAR_START"
+  },
+  {
+   "id": "i115",
+   "kind": "Squad",
+   "name": "sq_bazaar_tease_a",
+   "key": "SQ_BAZAAR_TEASE_A"
+  },
+  {
+   "id": "i116",
+   "kind": "Squad",
+   "name": "sq_bazaar_tease_b",
+   "key": "SQ_BAZAAR_TEASE_B"
+  },
+  {
+   "id": "i117",
+   "kind": "Squad",
+   "name": "sq_bazaar_a_a",
+   "key": "SQ_BAZAAR_A_A"
+  },
+  {
+   "id": "i118",
+   "kind": "Squad",
+   "name": "sq_bazaar_a_b",
+   "key": "SQ_BAZAAR_A_B"
+  },
+  {
+   "id": "i119",
+   "kind": "Squad",
+   "name": "sq_bazaar_a_c",
+   "key": "SQ_BAZAAR_A_C"
+  },
+  {
+   "id": "i120",
+   "kind": "Squad",
+   "name": "sq_bazaar_finale",
+   "key": "SQ_BAZAAR_FINALE"
+  },
+  {
+   "id": "i121",
+   "kind": "Squad",
+   "name": "sq_flame",
+   "key": "SQ_FLAME"
+  },
+  {
+   "id": "i122",
+   "kind": "Squad",
+   "name": "sq_ikora_80b5011f",
+   "key": "SQ_IKORA_80B5011F"
+  },
+  {
+   "id": "i123",
+   "kind": "Squad",
+   "name": "squad_cabal_blasted_1",
+   "key": "SQUAD_CABAL_BLASTED_1"
+  },
+  {
+   "id": "i124",
+   "kind": "Squad",
+   "name": "squad_cabal_blasted_2",
+   "key": "SQUAD_CABAL_BLASTED_2"
+  },
+  {
+   "id": "i125",
+   "kind": "Squad",
+   "name": "squad_cabal_blasted_3",
+   "key": "SQUAD_CABAL_BLASTED_3"
+  },
+  {
+   "id": "i126",
+   "kind": "Squad",
+   "name": "squad_cabal_blasted_4",
+   "key": "SQUAD_CABAL_BLASTED_4"
+  },
+  {
+   "id": "i127",
+   "kind": "Slot",
+   "name": "pt_bazaar",
+   "key": "PT_BAZAAR"
+  },
+  {
+   "id": "i128",
+   "kind": "Slot",
+   "name": "obj_bazaar",
+   "key": "OBJ_BAZAAR"
+  },
+  {
+   "id": "i130",
+   "kind": "Squad",
+   "name": "sq_pods",
+   "key": "SQ_PODS"
+  },
+  {
+   "id": "i131",
+   "kind": "Squad",
+   "name": "sq_damaged",
+   "key": "SQ_DAMAGED"
+  },
+  {
+   "id": "i132",
+   "kind": "Squad",
+   "name": "sq_damaged_hall_front",
+   "key": "SQ_DAMAGED_HALL_FRONT"
+  },
+  {
+   "id": "i133",
+   "kind": "Squad",
+   "name": "sq_damaged_hall_rear",
+   "key": "SQ_DAMAGED_HALL_REAR"
+  },
+  {
+   "id": "i134",
+   "kind": "Squad",
+   "name": "sq_damaged_hall_rear_anchor",
+   "key": "SQ_DAMAGED_HALL_REAR_ANCHOR"
+  },
+  {
+   "id": "i135",
+   "kind": "Squad",
+   "name": "sq_damaged_hall_melee",
+   "key": "SQ_DAMAGED_HALL_MELEE"
+  },
+  {
+   "id": "i136",
+   "kind": "Squad",
+   "name": "sq_damaged_hall_rear_stair",
+   "key": "SQ_DAMAGED_HALL_REAR_STAIR"
+  },
+  {
+   "id": "i137",
+   "kind": "Squad",
+   "name": "sq_damaged_hall_rear_stair_anchor",
+   "key": "SQ_DAMAGED_HALL_REAR_STAIR_ANCHOR"
+  },
+  {
+   "id": "i138",
+   "kind": "Slot",
+   "name": "d_ship_pod_door_a",
+   "key": "D_SHIP_POD_DOOR_A"
+  },
+  {
+   "id": "i139",
+   "kind": "Slot",
+   "name": "d_ship_pod_door_b",
+   "key": "D_SHIP_POD_DOOR_B"
+  },
+  {
+   "id": "i140",
+   "kind": "Slot",
+   "name": "d_ship_door_enter",
+   "key": "D_SHIP_DOOR_ENTER"
+  },
+  {
+   "id": "i141",
+   "kind": "Slot",
+   "name": "pt_damaged",
+   "key": "PT_DAMAGED"
+  },
+  {
+   "id": "i142",
+   "kind": "Slot",
+   "name": "obj_damaged",
+   "key": "OBJ_DAMAGED"
+  },
+  {
+   "id": "i145",
+   "kind": "Squad",
+   "name": "sq_deck_front_a_a",
+   "key": "SQ_DECK_FRONT_A_A"
+  },
+  {
+   "id": "i146",
+   "kind": "Squad",
+   "name": "sq_deck_front_a_b",
+   "key": "SQ_DECK_FRONT_A_B"
+  },
+  {
+   "id": "i147",
+   "kind": "Squad",
+   "name": "sq_deck_front_a_c",
+   "key": "SQ_DECK_FRONT_A_C"
+  },
+  {
+   "id": "i148",
+   "kind": "Squad",
+   "name": "sq_deck_front_b_a",
+   "key": "SQ_DECK_FRONT_B_A"
+  },
+  {
+   "id": "i149",
+   "kind": "Squad",
+   "name": "sq_deck_front_b_b",
+   "key": "SQ_DECK_FRONT_B_B"
+  },
+  {
+   "id": "i150",
+   "kind": "Squad",
+   "name": "sq_deck_front_b_c",
+   "key": "SQ_DECK_FRONT_B_C"
+  },
+  {
+   "id": "i151",
+   "kind": "Squad",
+   "name": "sq_deck_front_c_a",
+   "key": "SQ_DECK_FRONT_C_A"
+  },
+  {
+   "id": "i152",
+   "kind": "Squad",
+   "name": "sq_deck_hardpoint_l",
+   "key": "SQ_DECK_HARDPOINT_L"
+  },
+  {
+   "id": "i153",
+   "kind": "Squad",
+   "name": "sq_deck_hardpoint_l2",
+   "key": "SQ_DECK_HARDPOINT_L2"
+  },
+  {
+   "id": "i154",
+   "kind": "Squad",
+   "name": "sq_deck_hardpoint_l_lower",
+   "key": "SQ_DECK_HARDPOINT_L_LOWER"
+  },
+  {
+   "id": "i155",
+   "kind": "Squad",
+   "name": "sq_deck_hardpoint_r",
+   "key": "SQ_DECK_HARDPOINT_R"
+  },
+  {
+   "id": "i156",
+   "kind": "Squad",
+   "name": "sq_deck_miniboss",
+   "key": "SQ_DECK_MINIBOSS"
+  },
+  {
+   "id": "i157",
+   "kind": "Slot",
+   "name": "pt_deck_start",
+   "key": "PT_DECK_START"
+  },
+  {
+   "id": "i159",
+   "kind": "Squad",
+   "name": "sq_deck_ultra",
+   "key": "SQ_DECK_ULTRA"
+  },
+  {
+   "id": "i160",
+   "kind": "Slot",
+   "name": "pt_deck_boss",
+   "key": "PT_DECK_BOSS"
+  },
+  {
+   "id": "i161",
+   "kind": "Slot",
+   "name": "obj_deck_ultra",
+   "key": "OBJ_DECK_ULTRA"
+  },
+  {
+   "id": "i163",
+   "kind": "Squad",
+   "name": "sq_ship_door_melee",
+   "key": "SQ_SHIP_DOOR_MELEE"
+  },
+  {
+   "id": "i164",
+   "kind": "Squad",
+   "name": "sq_ship_door_melee_c",
+   "key": "SQ_SHIP_DOOR_MELEE_C"
+  },
+  {
+   "id": "i165",
+   "kind": "Squad",
+   "name": "sq_ship_door_melee_d",
+   "key": "SQ_SHIP_DOOR_MELEE_D"
+  },
+  {
+   "id": "i166",
+   "kind": "Squad",
+   "name": "sq_ship_door_melee_e",
+   "key": "SQ_SHIP_DOOR_MELEE_E"
+  },
+  {
+   "id": "i167",
+   "kind": "Squad",
+   "name": "sq_ship_entry_a_b",
+   "key": "SQ_SHIP_ENTRY_A_B"
+  },
+  {
+   "id": "i168",
+   "kind": "Squad",
+   "name": "sq_ship_entry_a_b_o",
+   "key": "SQ_SHIP_ENTRY_A_B_O"
+  },
+  {
+   "id": "i169",
+   "kind": "Squad",
+   "name": "sq_shield_snipes",
+   "key": "SQ_SHIELD_SNIPES"
+  },
+  {
+   "id": "i170",
+   "kind": "Squad",
+   "name": "sq_shield_front",
+   "key": "SQ_SHIELD_FRONT"
+  },
+  {
+   "id": "i171",
+   "kind": "Squad",
+   "name": "sq_shield_mid",
+   "key": "SQ_SHIELD_MID"
+  },
+  {
+   "id": "i172",
+   "kind": "Squad",
+   "name": "sq_shield_rear",
+   "key": "SQ_SHIELD_REAR"
+  },
+  {
+   "id": "i173",
+   "kind": "Squad",
+   "name": "sq_shield_melee",
+   "key": "SQ_SHIELD_MELEE"
+  },
+  {
+   "id": "i174",
+   "kind": "Squad",
+   "name": "sq_shield_gen_c",
+   "key": "SQ_SHIELD_GEN_C"
+  },
+  {
+   "id": "i175",
+   "kind": "Slot",
+   "name": "d_ship_door",
+   "key": "D_SHIP_DOOR"
+  },
+  {
+   "id": "i176",
+   "kind": "Slot",
+   "name": "pt_matrix_door",
+   "key": "PT_MATRIX_DOOR"
+  },
+  {
+   "id": "i179",
+   "kind": "Squad",
+   "name": "sq_shield_gen_a",
+   "key": "SQ_SHIELD_GEN_A"
+  },
+  {
+   "id": "i180",
+   "kind": "Squad",
+   "name": "sq_shield_gen_b",
+   "key": "SQ_SHIELD_GEN_B"
+  },
+  {
+   "id": "i182",
+   "kind": "Squad",
+   "name": "sq_ghaul",
+   "key": "SQ_GHAUL"
+  },
+  {
+   "id": "i183",
+   "kind": "Slot",
+   "name": "d_ghaul_descent",
+   "key": "D_GHAUL_DESCENT"
+  },
+  {
+   "id": "i184",
+   "kind": "Slot",
+   "name": "pt_engine_room_ghaul",
+   "key": "PT_ENGINE_ROOM_GHAUL"
+  },
+  {
+   "id": "i185",
+   "kind": "Slot",
+   "name": "obj_ghaul",
+   "key": "OBJ_GHAUL"
+  },
+  {
+   "id": "i188",
+   "kind": "Squad",
+   "name": "sq_escape_a",
+   "key": "SQ_ESCAPE_A"
+  },
+  {
+   "id": "i189",
+   "kind": "Squad",
+   "name": "sq_escape_b",
+   "key": "SQ_ESCAPE_B"
+  },
+  {
+   "id": "i191",
+   "kind": "Slot",
+   "name": "m_directive_sensor_80b50913",
+   "key": "M_DIRECTIVE_SENSOR_80B50913"
+  },
+  {
+   "id": "i192",
+   "kind": "Slot",
+   "name": "m_dialog_sensor_80b50913",
+   "key": "M_DIALOG_SENSOR_80B50913"
+  },
+  {
+   "id": "i193",
+   "kind": "State",
+   "name": "state_80b500bc_0002_0001_80b500b1",
+   "key": "STATE_80B500BC_0002_0001_80B500B1"
+  },
+  {
+   "id": "i194",
+   "kind": "Slot",
+   "name": "prefab_hro_cinematic",
+   "key": "PREFAB_HRO_CINEMATIC"
+  },
+  {
+   "id": "i195",
+   "kind": "State",
+   "name": "state_80b500bc_0009_0000_80b500bb",
+   "key": "STATE_80B500BC_0009_0000_80B500BB"
+  },
+  {
+   "id": "i196",
+   "kind": "Slot",
+   "name": "pt_start",
+   "key": "PT_START"
+  },
+  {
+   "id": "i197",
+   "kind": "Slot",
+   "name": "pt_weapon",
+   "key": "PT_WEAPON"
+  },
+  {
+   "id": "i198",
+   "kind": "Slot",
+   "name": "pt_player_near_shaxx",
+   "key": "PT_PLAYER_NEAR_SHAXX"
+  },
+  {
+   "id": "i199",
+   "kind": "Slot",
+   "name": "pt_weapon_complete",
+   "key": "PT_WEAPON_COMPLETE"
+  },
+  {
+   "id": "i200",
+   "kind": "Slot",
+   "name": "pt_goto_military",
+   "key": "PT_GOTO_MILITARY"
+  },
+  {
+   "id": "i201",
+   "kind": "State",
+   "name": "state_80b500bc_0004_0000_80b500b3",
+   "key": "STATE_80B500BC_0004_0000_80B500B3"
+  },
+  {
+   "id": "i202",
+   "kind": "Slot",
+   "name": "pt_goto_plaza_80b50b91",
+   "key": "PT_GOTO_PLAZA_80B50B91"
+  },
+  {
+   "id": "i203",
+   "kind": "Slot",
+   "name": "pt_dialogue_hangar_window",
+   "key": "PT_DIALOGUE_HANGAR_WINDOW"
+  },
+  {
+   "id": "i204",
+   "kind": "State",
+   "name": "state_80b500bc_0006_0000_80b500b6",
+   "key": "STATE_80B500BC_0006_0000_80B500B6"
+  },
+  {
+   "id": "i205",
+   "kind": "Slot",
+   "name": "pt_goto_plaza_80b51058",
+   "key": "PT_GOTO_PLAZA_80B51058"
+  },
+  {
+   "id": "i206",
+   "kind": "Slot",
+   "name": "pt_goto_boulevard",
+   "key": "PT_GOTO_BOULEVARD"
+  },
+  {
+   "id": "i207",
+   "kind": "State",
+   "name": "state_80b500bc_0000_0000_80b500ad",
+   "key": "STATE_80B500BC_0000_0000_80B500AD"
+  },
+  {
+   "id": "i208",
+   "kind": "Slot",
+   "name": "pt_goto_speaker",
+   "key": "PT_GOTO_SPEAKER"
+  },
+  {
+   "id": "i209",
+   "kind": "Slot",
+   "name": "pt_goto_sky_battle",
+   "key": "PT_GOTO_SKY_BATTLE"
+  },
+  {
+   "id": "i210",
+   "kind": "State",
+   "name": "state_80b500bc_0008_0000_80b500b8",
+   "key": "STATE_80B500BC_0008_0000_80B500B8"
+  },
+  {
+   "id": "i211",
+   "kind": "Slot",
+   "name": "pt_skybattle_3",
+   "key": "PT_SKYBATTLE_3"
+  },
+  {
+   "id": "i212",
+   "kind": "Slot",
+   "name": "pt_dialog_almost_there",
+   "key": "PT_DIALOG_ALMOST_THERE"
+  },
+  {
+   "id": "i213",
+   "kind": "Slot",
+   "name": "pt_destroy_battleship",
+   "key": "PT_DESTROY_BATTLESHIP"
+  },
+  {
+   "id": "i214",
+   "kind": "Slot",
+   "name": "pt_goto_end",
+   "key": "PT_GOTO_END"
+  },
+  {
+   "id": "i222",
+   "kind": "Directive",
+   "name": "defend_your_home",
+   "key": "DEFEND_YOUR_HOME"
+  },
+  {
+   "id": "i223",
+   "kind": "Slot",
+   "name": "ap_ikora",
+   "key": "AP_IKORA"
+  },
+  {
+   "id": "i224",
+   "kind": "Cue",
+   "name": "cue_1",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_1"
+  },
+  {
+   "id": "i225",
+   "kind": "Directive",
+   "name": "gear_up_for_the_fight",
+   "key": "GEAR_UP_FOR_THE_FIGHT"
+  },
+  {
+   "id": "i226",
+   "kind": "Slot",
+   "name": "slot_0009_80b5168c",
+   "key": "SLOT_0009_80B5168C"
+  },
+  {
+   "id": "i227",
+   "kind": "Slot",
+   "name": "d_gun_door",
+   "key": "D_GUN_DOOR"
+  },
+  {
+   "id": "i228",
+   "kind": "Directive",
+   "name": "find_zavala_432d2c96",
+   "key": "FIND_ZAVALA_432D2C96"
+  },
+  {
+   "id": "i229",
+   "kind": "Slot",
+   "name": "ap_goto_military_80b5168c",
+   "key": "AP_GOTO_MILITARY_80B5168C"
+  },
+  {
+   "id": "i230",
+   "kind": "Cue",
+   "name": "cue_30",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_30"
+  },
+  {
+   "id": "i231",
+   "kind": "Slot",
+   "name": "slot_0004_80b5168c",
+   "key": "SLOT_0004_80B5168C"
+  },
+  {
+   "id": "i232",
+   "kind": "Directive",
+   "name": "join_zavala_in_the_plaza",
+   "key": "JOIN_ZAVALA_IN_THE_PLAZA"
+  },
+  {
+   "id": "i233",
+   "kind": "Slot",
+   "name": "slot_0008_80b50b91",
+   "key": "SLOT_0008_80B50B91"
+  },
+  {
+   "id": "i234",
+   "kind": "Cue",
+   "name": "cue_34",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_34"
+  },
+  {
+   "id": "i235",
+   "kind": "Slot",
+   "name": "slot_0004_80b50b91",
+   "key": "SLOT_0004_80B50B91"
+  },
+  {
+   "id": "i236",
+   "kind": "Directive",
+   "name": "fight_with_zavala",
+   "key": "FIGHT_WITH_ZAVALA"
+  },
+  {
+   "id": "i237",
+   "kind": "Slot",
+   "name": "ap_plaza",
+   "key": "AP_PLAZA"
+  },
+  {
+   "id": "i238",
+   "kind": "Cue",
+   "name": "cue_40",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_40"
+  },
+  {
+   "id": "i239",
+   "kind": "Slot",
+   "name": "slot_0019_80b51058",
+   "key": "SLOT_0019_80B51058"
+  },
+  {
+   "id": "i240",
+   "kind": "Directive",
+   "name": "defend_the_tower",
+   "key": "DEFEND_THE_TOWER"
+  },
+  {
+   "id": "i241",
+   "kind": "Cue",
+   "name": "cue_51",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_51"
+  },
+  {
+   "id": "i242",
+   "kind": "Directive",
+   "name": "leave_the_plaza_and_find_the_speaker_e68735ed",
+   "key": "LEAVE_THE_PLAZA_AND_FIND_THE_SPEAKER_E68735ED"
+  },
+  {
+   "id": "i243",
+   "kind": "Slot",
+   "name": "slot_000e_80b51058",
+   "key": "SLOT_000E_80B51058"
+  },
+  {
+   "id": "i244",
+   "kind": "Cue",
+   "name": "cue_59",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_59"
+  },
+  {
+   "id": "i245",
+   "kind": "Directive",
+   "name": "leave_the_plaza_and_find_the_speaker",
+   "key": "LEAVE_THE_PLAZA_AND_FIND_THE_SPEAKER"
+  },
+  {
+   "id": "i246",
+   "kind": "Slot",
+   "name": "slot_000a_80b5097f",
+   "key": "SLOT_000A_80B5097F"
+  },
+  {
+   "id": "i247",
+   "kind": "Cue",
+   "name": "cue_74",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_74"
+  },
+  {
+   "id": "i248",
+   "kind": "Slot",
+   "name": "tv_bazaar_80b5097f",
+   "key": "TV_BAZAAR_80B5097F"
+  },
+  {
+   "id": "i249",
+   "kind": "Directive",
+   "name": "board_the_command_ship",
+   "key": "BOARD_THE_COMMAND_SHIP"
+  },
+  {
+   "id": "i250",
+   "kind": "Slot",
+   "name": "slot_0004_80b5097f",
+   "key": "SLOT_0004_80B5097F"
+  },
+  {
+   "id": "i251",
+   "kind": "Cue",
+   "name": "cue_75",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_75"
+  },
+  {
+   "id": "i252",
+   "kind": "Cue",
+   "name": "cue_76",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_76"
+  },
+  {
+   "id": "i253",
+   "kind": "Slot",
+   "name": "slot_0009_80b5097f",
+   "key": "SLOT_0009_80B5097F"
+  },
+  {
+   "id": "i254",
+   "kind": "Directive",
+   "name": "disable_the_shields",
+   "key": "DISABLE_THE_SHIELDS"
+  },
+  {
+   "id": "i255",
+   "kind": "Slot",
+   "name": "ap_locate",
+   "key": "AP_LOCATE"
+  },
+  {
+   "id": "i256",
+   "kind": "Cue",
+   "name": "cue_77",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_77"
+  },
+  {
+   "id": "i257",
+   "kind": "Slot",
+   "name": "gl_cabal_console",
+   "key": "GL_CABAL_CONSOLE"
+  },
+  {
+   "id": "i258",
+   "kind": "Directive",
+   "name": "reach_the_shield_generator",
+   "key": "REACH_THE_SHIELD_GENERATOR"
+  },
+  {
+   "id": "i259",
+   "kind": "Slot",
+   "name": "ap_destroy_battleship",
+   "key": "AP_DESTROY_BATTLESHIP"
+  },
+  {
+   "id": "i260",
+   "kind": "Cue",
+   "name": "cue_79",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_79"
+  },
+  {
+   "id": "i261",
+   "kind": "Cue",
+   "name": "cue_84",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_84"
+  },
+  {
+   "id": "i262",
+   "kind": "Slot",
+   "name": "slot_0011_80b51397",
+   "key": "SLOT_0011_80B51397"
+  },
+  {
+   "id": "i263",
+   "kind": "Directive",
+   "name": "overload_the_generator",
+   "key": "OVERLOAD_THE_GENERATOR"
+  },
+  {
+   "id": "i264",
+   "kind": "Slot",
+   "name": "slot_000c_80b51397",
+   "key": "SLOT_000C_80B51397"
+  },
+  {
+   "id": "i265",
+   "kind": "Cue",
+   "name": "cue_86",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_86"
+  },
+  {
+   "id": "i266",
+   "kind": "Slot",
+   "name": "d_vents_a",
+   "key": "D_VENTS_A"
+  },
+  {
+   "id": "i267",
+   "kind": "Slot",
+   "name": "d_vents_b",
+   "key": "D_VENTS_B"
+  },
+  {
+   "id": "i268",
+   "kind": "Slot",
+   "name": "d_vents_c",
+   "key": "D_VENTS_C"
+  },
+  {
+   "id": "i269",
+   "kind": "Slot",
+   "name": "d_shield_gen_a",
+   "key": "D_SHIELD_GEN_A"
+  },
+  {
+   "id": "i270",
+   "kind": "Slot",
+   "name": "d_shield_gen_b",
+   "key": "D_SHIELD_GEN_B"
+  },
+  {
+   "id": "i271",
+   "kind": "Slot",
+   "name": "d_shield_gen_collar",
+   "key": "D_SHIELD_GEN_COLLAR"
+  },
+  {
+   "id": "i272",
+   "kind": "Slot",
+   "name": "shield_generator_a",
+   "key": "SHIELD_GENERATOR_A"
+  },
+  {
+   "id": "i273",
+   "kind": "Slot",
+   "name": "shield_generator_b",
+   "key": "SHIELD_GENERATOR_B"
+  },
+  {
+   "id": "i274",
+   "kind": "Slot",
+   "name": "shield_generator_c",
+   "key": "SHIELD_GENERATOR_C"
+  },
+  {
+   "id": "i275",
+   "kind": "Directive",
+   "name": "escape_the_command_ship",
+   "key": "ESCAPE_THE_COMMAND_SHIP"
+  },
+  {
+   "id": "i276",
+   "kind": "Slot",
+   "name": "slot_0010_80b51397",
+   "key": "SLOT_0010_80B51397"
+  },
+  {
+   "id": "i277",
+   "kind": "Cue",
+   "name": "cue_91",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_91"
+  },
+  {
+   "id": "i278",
+   "kind": "Cue",
+   "name": "cue_92",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_92"
+  },
+  {
+   "id": "i279",
+   "kind": "Slot",
+   "name": "d_ship_door_exit",
+   "key": "D_SHIP_DOOR_EXIT"
+  },
+  {
+   "id": "i325",
+   "kind": "Slot",
+   "name": "scout_rifle_interactable",
+   "key": "SCOUT_RIFLE_INTERACTABLE"
+  },
+  {
+   "id": "i329",
+   "kind": "Slot",
+   "name": "pt_hangar_artie_lookat",
+   "key": "PT_HANGAR_ARTIE_LOOKAT"
+  },
+  {
+   "id": "i331",
+   "kind": "Slot",
+   "name": "d_gating_amanda_start",
+   "key": "D_GATING_AMANDA_START"
+  },
+  {
+   "id": "i332",
+   "kind": "Slot",
+   "name": "d_gating_amanda_hangar",
+   "key": "D_GATING_AMANDA_HANGAR"
+  },
+  {
+   "id": "i333",
+   "kind": "Slot",
+   "name": "d_door_gating",
+   "key": "D_DOOR_GATING"
+  }
+ ],
+ "custom": [],
+ "nodes": [
+  {
+   "id": 22,
+   "type": "c_enc",
+   "x": 650,
+   "y": 30,
+   "next": null,
+   "params": {
+    "id": "cast",
+    "trigger": "",
+    "monitor": "",
+    "objective": "",
+    "squads": [
+     "i1",
+     "i2",
+     "i3",
+     "i4",
+     "i5",
+     "i6",
+     "i7",
+     "i8",
+     "i9",
+     "i10",
+     "i11",
+     "i12",
+     "i13",
+     "i14",
+     "i15",
+     "i16",
+     "i17",
+     "i18",
+     "i19",
+     "i20",
+     "i21"
+    ]
+   }
+  },
+  {
+   "id": 32,
+   "type": "c_enc",
+   "x": 650,
+   "y": 314,
+   "next": 33,
+   "params": {
+    "id": "contact",
+    "trigger": "i30",
+    "monitor": "",
+    "objective": "i31",
+    "squads": [
+     "i23",
+     "i24",
+     "i25",
+     "i26",
+     "i27"
+    ]
+   }
+  },
+  {
+   "id": 33,
+   "type": "c_say",
+   "x": 650,
+   "y": 619,
+   "next": 34,
+   "params": {
+    "cue": "i28",
+    "filter": ""
+   }
+  },
+  {
+   "id": 34,
+   "type": "c_say",
+   "x": 650,
+   "y": 697,
+   "next": null,
+   "params": {
+    "cue": "i29",
+    "filter": ""
+   }
+  },
+  {
+   "id": 40,
+   "type": "c_enc",
+   "x": 650,
+   "y": 803,
+   "next": null,
+   "params": {
+    "id": "centurion",
+    "trigger": "i38",
+    "monitor": "",
+    "objective": "i39",
+    "squads": [
+     "i35",
+     "i36",
+     "i37"
+    ]
+   }
+  },
+  {
+   "id": 43,
+   "type": "c_enc",
+   "x": 650,
+   "y": 1087,
+   "next": 44,
+   "params": {
+    "id": "wall",
+    "trigger": "i42",
+    "monitor": "",
+    "objective": "",
+    "squads": []
+   }
+  },
+  {
+   "id": 44,
+   "type": "c_move",
+   "x": 650,
+   "y": 1242,
+   "next": null,
+   "params": {
+    "transition": "open",
+    "devices": [
+     "i41"
+    ]
+   }
+  },
+  {
+   "id": 50,
+   "type": "c_enc",
+   "x": 650,
+   "y": 1372,
+   "next": null,
+   "params": {
+    "id": "post_gun",
+    "trigger": "i48",
+    "monitor": "",
+    "objective": "i49",
+    "squads": [
+     "i45",
+     "i46",
+     "i47"
+    ]
+   }
+  },
+  {
+   "id": 79,
+   "type": "c_enc",
+   "x": 644.666748046875,
+   "y": 1651.3333740234375,
+   "next": null,
+   "params": {
+    "id": "hangar_fight",
+    "trigger": "i77",
+    "monitor": "",
+    "objective": "i78",
+    "squads": [
+     "i59",
+     "i60",
+     "i61",
+     "i62",
+     "i63",
+     "i64",
+     "i65",
+     "i66",
+     "i67",
+     "i68",
+     "i69",
+     "i70",
+     "i71",
+     "i72",
+     "i73",
+     "i74",
+     "i75",
+     "i76",
+     "i52",
+     "i53",
+     "i54"
+    ]
+   }
+  },
+  {
+   "id": 91,
+   "type": "c_enc",
+   "x": 650,
+   "y": 2015,
+   "next": null,
+   "params": {
+    "id": "plaza_hold",
+    "trigger": "i89",
+    "monitor": "",
+    "objective": "i90",
+    "squads": [
+     "i80",
+     "i81",
+     "i82",
+     "i83",
+     "i84",
+     "i85",
+     "i86",
+     "i87",
+     "i88"
+    ]
+   }
+  },
+  {
+   "id": 96,
+   "type": "c_enc",
+   "x": 650,
+   "y": 2374,
+   "next": null,
+   "params": {
+    "id": "zavala_cast",
+    "trigger": "i95",
+    "monitor": "",
+    "objective": "",
+    "squads": [
+     "i92",
+     "i93",
+     "i94"
+    ]
+   }
+  },
+  {
+   "id": 112,
+   "type": "c_enc",
+   "x": 650,
+   "y": 2633,
+   "next": 113,
+   "params": {
+    "id": "plaza_waves",
+    "trigger": "i110",
+    "monitor": "",
+    "objective": "i111",
+    "squads": [
+     "i97",
+     "i98",
+     "i99",
+     "i100",
+     "i101",
+     "i102",
+     "i103",
+     "i104",
+     "i105",
+     "i106",
+     "i107",
+     "i108"
+    ]
+   }
+  },
+  {
+   "id": 113,
+   "type": "c_say",
+   "x": 650,
+   "y": 2939,
+   "next": null,
+   "params": {
+    "cue": "i109",
+    "filter": ""
+   }
+  },
+  {
+   "id": 129,
+   "type": "c_enc",
+   "x": 650,
+   "y": 3045,
+   "next": null,
+   "params": {
+    "id": "bazaar",
+    "trigger": "i127",
+    "monitor": "",
+    "objective": "i128",
+    "squads": [
+     "i114",
+     "i115",
+     "i116",
+     "i117",
+     "i118",
+     "i119",
+     "i120",
+     "i121",
+     "i122",
+     "i123",
+     "i124",
+     "i125",
+     "i126"
+    ]
+   }
+  },
+  {
+   "id": 143,
+   "type": "c_enc",
+   "x": 650,
+   "y": 3354,
+   "next": 144,
+   "params": {
+    "id": "ship_entry",
+    "trigger": "i141",
+    "monitor": "",
+    "objective": "i142",
+    "squads": [
+     "i130",
+     "i131",
+     "i132",
+     "i133",
+     "i134",
+     "i135",
+     "i136",
+     "i137"
+    ]
+   }
+  },
+  {
+   "id": 144,
+   "type": "c_move",
+   "x": 650,
+   "y": 3685,
+   "next": null,
+   "params": {
+    "transition": "open",
+    "devices": [
+     "i138",
+     "i139",
+     "i140"
+    ]
+   }
+  },
+  {
+   "id": 158,
+   "type": "c_enc",
+   "x": 650,
+   "y": 3840,
+   "next": null,
+   "params": {
+    "id": "deck",
+    "trigger": "i157",
+    "monitor": "",
+    "objective": "",
+    "squads": [
+     "i145",
+     "i146",
+     "i147",
+     "i148",
+     "i149",
+     "i150",
+     "i151",
+     "i152",
+     "i153",
+     "i154",
+     "i155",
+     "i156"
+    ]
+   }
+  },
+  {
+   "id": 162,
+   "type": "c_enc",
+   "x": 650,
+   "y": 4174,
+   "next": null,
+   "params": {
+    "id": "deck_boss",
+    "trigger": "i160",
+    "monitor": "",
+    "objective": "i161",
+    "squads": [
+     "i159"
+    ]
+   }
+  },
+  {
+   "id": 177,
+   "type": "c_enc",
+   "x": 650,
+   "y": 4382,
+   "next": 178,
+   "params": {
+    "id": "shield_room",
+    "trigger": "i176",
+    "monitor": "",
+    "objective": "",
+    "squads": [
+     "i163",
+     "i164",
+     "i165",
+     "i166",
+     "i167",
+     "i168",
+     "i169",
+     "i170",
+     "i171",
+     "i172",
+     "i173",
+     "i174"
+    ]
+   }
+  },
+  {
+   "id": 178,
+   "type": "c_move",
+   "x": 650,
+   "y": 4713,
+   "next": null,
+   "params": {
+    "transition": "open",
+    "devices": [
+     "i175"
+    ]
+   }
+  },
+  {
+   "id": 181,
+   "type": "c_enc",
+   "x": 650,
+   "y": 4819,
+   "next": null,
+   "params": {
+    "id": "turbine_guard",
+    "trigger": "",
+    "monitor": "",
+    "objective": "",
+    "squads": [
+     "i179",
+     "i180"
+    ]
+   }
+  },
+  {
+   "id": 186,
+   "type": "c_enc",
+   "x": 650,
+   "y": 5028,
+   "next": 187,
+   "params": {
+    "id": "ghaul",
+    "trigger": "i184",
+    "monitor": "",
+    "objective": "i185",
+    "squads": [
+     "i182"
+    ]
+   }
+  },
+  {
+   "id": 187,
+   "type": "c_move",
+   "x": 650,
+   "y": 5208,
+   "next": null,
+   "params": {
+    "transition": "open",
+    "devices": [
+     "i183"
+    ]
+   }
+  },
+  {
+   "id": 190,
+   "type": "c_enc",
+   "x": 650,
+   "y": 5313,
+   "next": null,
+   "params": {
+    "id": "escape_guard",
+    "trigger": "",
+    "monitor": "",
+    "objective": "",
+    "squads": [
+     "i188",
+     "i189"
+    ]
+   }
+  },
+  {
+   "id": 215,
+   "type": "c_setup",
+   "x": 40,
+   "y": 30,
+   "next": 216,
+   "params": {
+    "key": "towerfall",
+    "sensor": "i191",
+    "voice": "i192",
+    "spawn": ""
+   }
+  },
+  {
+   "id": 216,
+   "type": "c_cut",
+   "x": 40,
+   "y": 213,
+   "next": 217,
+   "params": {
+    "state": "i193",
+    "cinematic": "i194"
+   }
+  },
+  {
+   "id": 217,
+   "type": "c_leg",
+   "x": 40,
+   "y": 315,
+   "next": 218,
+   "params": {
+    "id": "underwatch",
+    "state": "i195",
+    "arm": [
+     "i196",
+     "i197",
+     "i198",
+     "i199",
+     "i200",
+     "i30",
+     "i38",
+     "i42",
+     "i48"
+    ],
+    "watch": []
+   }
+  },
+  {
+   "id": 218,
+   "type": "c_leg",
+   "x": 40,
+   "y": 646,
+   "next": 219,
+   "params": {
+    "id": "military",
+    "state": "i201",
+    "arm": [
+     "i202",
+     "i203",
+     "i77",
+     "i329"
+    ],
+    "watch": []
+   }
+  },
+  {
+   "id": 219,
+   "type": "c_leg",
+   "x": 40,
+   "y": 877,
+   "next": 220,
+   "params": {
+    "id": "plaza",
+    "state": "i204",
+    "arm": [
+     "i205",
+     "i89",
+     "i95",
+     "i110",
+     "i206"
+    ],
+    "watch": []
+   }
+  },
+  {
+   "id": 220,
+   "type": "c_leg",
+   "x": 40,
+   "y": 1133,
+   "next": 221,
+   "params": {
+    "id": "boulevard",
+    "state": "i207",
+    "arm": [
+     "i208",
+     "i209",
+     "i127"
+    ],
+    "watch": []
+   }
+  },
+  {
+   "id": 221,
+   "type": "c_leg",
+   "x": 40,
+   "y": 1338,
+   "next": null,
+   "params": {
+    "id": "sky_battle",
+    "state": "i210",
+    "arm": [
+     "i211",
+     "i212",
+     "i213",
+     "i214",
+     "i141",
+     "i157",
+     "i160",
+     "i176",
+     "i184"
+    ],
+    "watch": []
+   }
+  },
+  {
+   "id": 280,
+   "type": "c_story",
+   "x": 345,
+   "y": 30,
+   "next": 281,
+   "params": {}
+  },
+  {
+   "id": 281,
+   "type": "c_step",
+   "x": 345,
+   "y": 82,
+   "next": 282,
+   "params": {
+    "id": "home",
+    "directive": "i222",
+    "marker": "i223",
+    "waypoint": "",
+    "barrier": false,
+    "revisit": false
+   }
+  },
+  {
+   "id": 282,
+   "type": "c_say",
+   "x": 345,
+   "y": 237,
+   "next": 283,
+   "params": {
+    "cue": "i224",
+    "filter": ""
+   }
+  },
+  {
+   "id": 283,
+   "type": "c_end_trigger",
+   "x": 345,
+   "y": 315,
+   "next": 284,
+   "params": {
+    "triggers": [
+     "i198"
+    ]
+   }
+  },
+  {
+   "id": 284,
+   "type": "c_step",
+   "x": 345,
+   "y": 392,
+   "next": 285,
+   "params": {
+    "id": "gear",
+    "directive": "i225",
+    "marker": "i226",
+    "waypoint": "",
+    "barrier": false,
+    "revisit": false
+   }
+  },
+  {
+   "id": 285,
+   "type": "c_move",
+   "x": 345,
+   "y": 572,
+   "next": 334,
+   "params": {
+    "transition": "open",
+    "devices": [
+     "i227"
+    ]
+   }
+  },
+  {
+   "id": 287,
+   "type": "c_step",
+   "x": 345,
+   "y": 727,
+   "next": 288,
+   "params": {
+    "id": "find",
+    "directive": "i228",
+    "marker": "i229",
+    "waypoint": "",
+    "barrier": false,
+    "revisit": false
+   }
+  },
+  {
+   "id": 288,
+   "type": "c_say",
+   "x": 345,
+   "y": 907,
+   "next": 289,
+   "params": {
+    "cue": "i230",
+    "filter": "i231"
+   }
+  },
+  {
+   "id": 289,
+   "type": "c_end_trigger",
+   "x": 345,
+   "y": 985,
+   "next": 339,
+   "params": {
+    "triggers": [
+     "i200"
+    ]
+   }
+  },
+  {
+   "id": 290,
+   "type": "c_step",
+   "x": 345,
+   "y": 1294,
+   "next": 341,
+   "params": {
+    "id": "hangar",
+    "directive": "i232",
+    "marker": "i233",
+    "waypoint": "",
+    "barrier": false,
+    "revisit": false
+   }
+  },
+  {
+   "id": 291,
+   "type": "c_say",
+   "x": 345,
+   "y": 1576,
+   "next": 292,
+   "params": {
+    "cue": "i234",
+    "filter": "i235"
+   }
+  },
+  {
+   "id": 292,
+   "type": "c_end_trigger",
+   "x": 345,
+   "y": 1654,
+   "next": 293,
+   "params": {
+    "triggers": [
+     "i202"
+    ]
+   }
+  },
+  {
+   "id": 293,
+   "type": "c_step",
+   "x": 345,
+   "y": 1731,
+   "next": 294,
+   "params": {
+    "id": "zavala",
+    "directive": "i236",
+    "marker": "i237",
+    "waypoint": "",
+    "barrier": false,
+    "revisit": false
+   }
+  },
+  {
+   "id": 294,
+   "type": "c_say",
+   "x": 345,
+   "y": 1886,
+   "next": 295,
+   "params": {
+    "cue": "i238",
+    "filter": "i239"
+   }
+  },
+  {
+   "id": 295,
+   "type": "c_end_clear",
+   "x": 345,
+   "y": 1964,
+   "next": 296,
+   "params": {
+    "encounters": [
+     91
+    ]
+   }
+  },
+  {
+   "id": 296,
+   "type": "c_step",
+   "x": 345,
+   "y": 2041,
+   "next": 297,
+   "params": {
+    "id": "defend",
+    "directive": "i240",
+    "marker": "",
+    "waypoint": "",
+    "barrier": false,
+    "revisit": false
+   }
+  },
+  {
+   "id": 297,
+   "type": "c_say",
+   "x": 345,
+   "y": 2196,
+   "next": 298,
+   "params": {
+    "cue": "i241",
+    "filter": ""
+   }
+  },
+  {
+   "id": 298,
+   "type": "c_end_clear",
+   "x": 345,
+   "y": 2274,
+   "next": 299,
+   "params": {
+    "encounters": [
+     112
+    ]
+   }
+  },
+  {
+   "id": 299,
+   "type": "c_step",
+   "x": 345,
+   "y": 2351,
+   "next": 300,
+   "params": {
+    "id": "speaker",
+    "directive": "i242",
+    "marker": "i243",
+    "waypoint": "",
+    "barrier": false,
+    "revisit": false
+   }
+  },
+  {
+   "id": 300,
+   "type": "c_say",
+   "x": 345,
+   "y": 2531,
+   "next": 301,
+   "params": {
+    "cue": "i244",
+    "filter": ""
+   }
+  },
+  {
+   "id": 301,
+   "type": "c_end_trigger",
+   "x": 345,
+   "y": 2609,
+   "next": 302,
+   "params": {
+    "triggers": [
+     "i206"
+    ]
+   }
+  },
+  {
+   "id": 302,
+   "type": "c_step",
+   "x": 345,
+   "y": 2686,
+   "next": 303,
+   "params": {
+    "id": "boulevard",
+    "directive": "i245",
+    "marker": "i246",
+    "waypoint": "",
+    "barrier": false,
+    "revisit": false
+   }
+  },
+  {
+   "id": 303,
+   "type": "c_say",
+   "x": 345,
+   "y": 2866,
+   "next": 304,
+   "params": {
+    "cue": "i247",
+    "filter": "i248"
+   }
+  },
+  {
+   "id": 304,
+   "type": "c_end_trigger",
+   "x": 345,
+   "y": 2944,
+   "next": 305,
+   "params": {
+    "triggers": [
+     "i208"
+    ]
+   }
+  },
+  {
+   "id": 305,
+   "type": "c_step",
+   "x": 345,
+   "y": 3021,
+   "next": 306,
+   "params": {
+    "id": "board",
+    "directive": "i249",
+    "marker": "i250",
+    "waypoint": "",
+    "barrier": false,
+    "revisit": false
+   }
+  },
+  {
+   "id": 306,
+   "type": "c_say",
+   "x": 345,
+   "y": 3201,
+   "next": 307,
+   "params": {
+    "cue": "i251",
+    "filter": ""
+   }
+  },
+  {
+   "id": 307,
+   "type": "c_say",
+   "x": 345,
+   "y": 3279,
+   "next": 308,
+   "params": {
+    "cue": "i252",
+    "filter": "i253"
+   }
+  },
+  {
+   "id": 308,
+   "type": "c_end_trigger",
+   "x": 345,
+   "y": 3357,
+   "next": 309,
+   "params": {
+    "triggers": [
+     "i209"
+    ]
+   }
+  },
+  {
+   "id": 309,
+   "type": "c_step",
+   "x": 345,
+   "y": 3434,
+   "next": 310,
+   "params": {
+    "id": "locate",
+    "directive": "i254",
+    "marker": "i255",
+    "waypoint": "",
+    "barrier": false,
+    "revisit": false
+   }
+  },
+  {
+   "id": 310,
+   "type": "c_say",
+   "x": 345,
+   "y": 3589,
+   "next": 311,
+   "params": {
+    "cue": "i256",
+    "filter": ""
+   }
+  },
+  {
+   "id": 311,
+   "type": "c_end_scan",
+   "x": 345,
+   "y": 3667,
+   "next": 312,
+   "params": {
+    "link": "i257"
+   }
+  },
+  {
+   "id": 312,
+   "type": "c_step",
+   "x": 345,
+   "y": 3744,
+   "next": 313,
+   "params": {
+    "id": "reach",
+    "directive": "i258",
+    "marker": "i259",
+    "waypoint": "",
+    "barrier": false,
+    "revisit": false
+   }
+  },
+  {
+   "id": 313,
+   "type": "c_say",
+   "x": 345,
+   "y": 3924,
+   "next": 314,
+   "params": {
+    "cue": "i260",
+    "filter": ""
+   }
+  },
+  {
+   "id": 314,
+   "type": "c_say",
+   "x": 345,
+   "y": 4002,
+   "next": 315,
+   "params": {
+    "cue": "i261",
+    "filter": "i262"
+   }
+  },
+  {
+   "id": 315,
+   "type": "c_end_trigger",
+   "x": 345,
+   "y": 4080,
+   "next": 316,
+   "params": {
+    "triggers": [
+     "i213"
+    ]
+   }
+  },
+  {
+   "id": 316,
+   "type": "c_step",
+   "x": 345,
+   "y": 4157,
+   "next": 317,
+   "params": {
+    "id": "overload",
+    "directive": "i263",
+    "marker": "i264",
+    "waypoint": "",
+    "barrier": false,
+    "revisit": false
+   }
+  },
+  {
+   "id": 317,
+   "type": "c_say",
+   "x": 345,
+   "y": 4337,
+   "next": 318,
+   "params": {
+    "cue": "i265",
+    "filter": ""
+   }
+  },
+  {
+   "id": 318,
+   "type": "c_move",
+   "x": 345,
+   "y": 4415,
+   "next": 319,
+   "params": {
+    "transition": "open",
+    "devices": [
+     "i266",
+     "i267",
+     "i268",
+     "i269",
+     "i270",
+     "i271"
+    ]
+   }
+  },
+  {
+   "id": 319,
+   "type": "c_end_destroyed",
+   "x": 345,
+   "y": 4568,
+   "next": 320,
+   "params": {
+    "objects": [
+     "i272",
+     "i273",
+     "i274"
+    ]
+   }
+  },
+  {
+   "id": 320,
+   "type": "c_step",
+   "x": 345,
+   "y": 4695,
+   "next": 321,
+   "params": {
+    "id": "escape",
+    "directive": "i275",
+    "marker": "i276",
+    "waypoint": "",
+    "barrier": false,
+    "revisit": false
+   }
+  },
+  {
+   "id": 321,
+   "type": "c_say",
+   "x": 345,
+   "y": 4875,
+   "next": 322,
+   "params": {
+    "cue": "i277",
+    "filter": ""
+   }
+  },
+  {
+   "id": 322,
+   "type": "c_say",
+   "x": 345,
+   "y": 4953,
+   "next": 323,
+   "params": {
+    "cue": "i278",
+    "filter": ""
+   }
+  },
+  {
+   "id": 323,
+   "type": "c_move",
+   "x": 345,
+   "y": 5031,
+   "next": 324,
+   "params": {
+    "transition": "open",
+    "devices": [
+     "i279"
+    ]
+   }
+  },
+  {
+   "id": 324,
+   "type": "c_end_trigger",
+   "x": 345,
+   "y": 5108,
+   "next": null,
+   "params": {
+    "triggers": [
+     "i214"
+    ]
+   }
+  },
+  {
+   "id": 328,
+   "type": "c_enc",
+   "x": 937.3334350585938,
+   "y": 1068.2708892822266,
+   "next": 330,
+   "params": {
+    "id": "amanda",
+    "squads": [
+     "i56",
+     "i57",
+     "i58"
+    ],
+    "trigger": "i329"
+   }
+  },
+  {
+   "id": 330,
+   "type": "c_move",
+   "x": 937.3334350585938,
+   "y": 1299.2708892822266,
+   "next": null,
+   "params": {
+    "transition": "open",
+    "devices": [
+     "i331"
+    ]
+   }
+  },
+  {
+   "id": 334,
+   "type": "c_end_interact",
+   "x": 345,
+   "y": 650,
+   "next": 287,
+   "params": {
+    "object": "i325"
+   }
+  },
+  {
+   "id": 339,
+   "type": "c_step",
+   "x": 345,
+   "y": 1062,
+   "next": 340,
+   "params": {
+    "id": "hangar_block",
+    "barrier": false,
+    "revisit": false
+   }
+  },
+  {
+   "id": 340,
+   "type": "c_end_clear",
+   "x": 345,
+   "y": 1217,
+   "next": 290,
+   "params": {
+    "encounters": [
+     328
+    ]
+   }
+  },
+  {
+   "id": 341,
+   "type": "c_move",
+   "x": 345,
+   "y": 1474,
+   "next": 291,
+   "params": {
+    "transition": "open",
+    "devices": [
+     "i332"
+    ]
+   }
+  }
+ ],
+ "wires": [
+  {
+   "from": 284,
+   "to": 50
+  },
+  {
+   "from": 296,
+   "to": 112
+  },
+  {
+   "from": 302,
+   "to": 129
+  },
+  {
+   "from": 316,
+   "to": 181
+  },
+  {
+   "from": 316,
+   "to": 186
+  },
+  {
+   "from": 320,
+   "to": 190
+  }
+ ],
+ "graphs": {},
+ "collapsed": [],
+ "seq": 342
+}

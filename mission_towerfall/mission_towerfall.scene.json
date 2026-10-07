@@ -1,0 +1,2599 @@
+{
+ "meta": {
+  "activity": "mission_towerfall",
+  "scenario": "MISSION_TOWERFALL",
+  "initial": "",
+  "mode": "mission"
+ },
+ "inputs": [
+  {
+   "id": "i1",
+   "kind": "Squad",
+   "name": "sq_shaxx",
+   "key": "SQ_SHAXX",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i2",
+   "kind": "Squad",
+   "name": "sq_frame",
+   "key": "SQ_FRAME",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i3",
+   "kind": "Squad",
+   "name": "sq_cayde",
+   "key": "SQ_CAYDE",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i4",
+   "kind": "Squad",
+   "name": "sq_ikora_80b50ca7",
+   "key": "SQ_IKORA_80B50CA7",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i5",
+   "kind": "Squad",
+   "name": "sq_legionarya",
+   "key": "SQ_LEGIONARYA",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i6",
+   "kind": "Squad",
+   "name": "sq_legionaryb",
+   "key": "SQ_LEGIONARYB",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i7",
+   "kind": "Squad",
+   "name": "sq_legionaryc",
+   "key": "SQ_LEGIONARYC",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i8",
+   "kind": "Squad",
+   "name": "sq_red_guard",
+   "key": "SQ_RED_GUARD",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i9",
+   "kind": "Squad",
+   "name": "sq_red_guard_ads",
+   "key": "SQ_RED_GUARD_ADS",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i10",
+   "kind": "Squad",
+   "name": "sq_frame_fake_fight",
+   "key": "SQ_FRAME_FAKE_FIGHT",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i11",
+   "kind": "Squad",
+   "name": "sq_red_guard_fake_fight",
+   "key": "SQ_RED_GUARD_FAKE_FIGHT",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i12",
+   "kind": "Squad",
+   "name": "sq_civilian_catatonic",
+   "key": "SQ_CIVILIAN_CATATONIC",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i13",
+   "kind": "Squad",
+   "name": "sq_civilian_kneel",
+   "key": "SQ_CIVILIAN_KNEEL",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i14",
+   "kind": "Squad",
+   "name": "sq_civilian_stand",
+   "key": "SQ_CIVILIAN_STAND",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i15",
+   "kind": "Squad",
+   "name": "sq_civilian_wall_sit_a",
+   "key": "SQ_CIVILIAN_WALL_SIT_A",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i16",
+   "kind": "Squad",
+   "name": "sq_civilian_wall_sit_b",
+   "key": "SQ_CIVILIAN_WALL_SIT_B",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i17",
+   "kind": "Squad",
+   "name": "sq_civilian_wall_sit_c",
+   "key": "SQ_CIVILIAN_WALL_SIT_C",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i18",
+   "kind": "Squad",
+   "name": "sq_civilian_ground_1",
+   "key": "SQ_CIVILIAN_GROUND_1",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i19",
+   "kind": "Squad",
+   "name": "sq_civilian_ground_2",
+   "key": "SQ_CIVILIAN_GROUND_2",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i20",
+   "kind": "Squad",
+   "name": "sq_civilian_on_knees_crying",
+   "key": "SQ_CIVILIAN_ON_KNEES_CRYING",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i21",
+   "kind": "Squad",
+   "name": "sq_civilian_hero_moment",
+   "key": "SQ_CIVILIAN_HERO_MOMENT",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i22",
+   "kind": "Squad",
+   "name": "squad_first_contact_cabal",
+   "key": "SQUAD_FIRST_CONTACT_CABAL",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i23",
+   "kind": "Squad",
+   "name": "squad_first_contact_cabal_backup_a",
+   "key": "SQUAD_FIRST_CONTACT_CABAL_BACKUP_A",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i24",
+   "kind": "Squad",
+   "name": "squad_first_contact_cabal_backup_b",
+   "key": "SQUAD_FIRST_CONTACT_CABAL_BACKUP_B",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i25",
+   "kind": "Squad",
+   "name": "sq_cabal_hero_moment",
+   "key": "SQ_CABAL_HERO_MOMENT",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i26",
+   "kind": "Squad",
+   "name": "sq_cabal_hero_moment_b",
+   "key": "SQ_CABAL_HERO_MOMENT_B",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i27",
+   "kind": "Cue",
+   "name": "cue_4",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_4"
+  },
+  {
+   "id": "i28",
+   "kind": "Cue",
+   "name": "cue_5",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_5"
+  },
+  {
+   "id": "i29",
+   "kind": "Slot",
+   "name": "pt_drop_pod",
+   "key": "PT_DROP_POD",
+   "slotType": 31,
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i30",
+   "kind": "Slot",
+   "name": "obj_cabal_first_contact",
+   "key": "OBJ_CABAL_FIRST_CONTACT",
+   "slotType": 3,
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i31",
+   "kind": "Squad",
+   "name": "sq_centurion_intro",
+   "key": "SQ_CENTURION_INTRO",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i32",
+   "kind": "Squad",
+   "name": "sq_centurion_intro_rush",
+   "key": "SQ_CENTURION_INTRO_RUSH",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i33",
+   "kind": "Squad",
+   "name": "sq_centurion_intro_backup",
+   "key": "SQ_CENTURION_INTRO_BACKUP",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i34",
+   "kind": "Slot",
+   "name": "pt_centurion_intro",
+   "key": "PT_CENTURION_INTRO",
+   "slotType": 31,
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i35",
+   "kind": "Slot",
+   "name": "obj_centurion_intro",
+   "key": "OBJ_CENTURION_INTRO",
+   "slotType": 3,
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i36",
+   "kind": "Slot",
+   "name": "d_underwatch_collapsing_wall",
+   "key": "D_UNDERWATCH_COLLAPSING_WALL",
+   "slotType": 23,
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i37",
+   "kind": "Slot",
+   "name": "pt_wall_explode",
+   "key": "PT_WALL_EXPLODE",
+   "slotType": 31,
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i38",
+   "kind": "Squad",
+   "name": "sq_frame_post_gun",
+   "key": "SQ_FRAME_POST_GUN",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i39",
+   "kind": "Squad",
+   "name": "sq_red_guard_post_gun",
+   "key": "SQ_RED_GUARD_POST_GUN",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i40",
+   "kind": "Squad",
+   "name": "sq_red_guard_post_gun_jump",
+   "key": "SQ_RED_GUARD_POST_GUN_JUMP",
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i41",
+   "kind": "Slot",
+   "name": "pt_postgun",
+   "key": "PT_POSTGUN",
+   "slotType": 31,
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i42",
+   "kind": "Slot",
+   "name": "obj_post_gun",
+   "key": "OBJ_POST_GUN",
+   "slotType": 3,
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i43",
+   "kind": "Squad",
+   "name": "sq_military_hallway_destruction",
+   "key": "SQ_MILITARY_HALLWAY_DESTRUCTION",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i44",
+   "kind": "Squad",
+   "name": "sq_hangar_overlook_a_a",
+   "key": "SQ_HANGAR_OVERLOOK_A_A",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i45",
+   "kind": "Squad",
+   "name": "sq_hangar_overlook_a_a_cent",
+   "key": "SQ_HANGAR_OVERLOOK_A_A_CENT",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i46",
+   "kind": "Squad",
+   "name": "sq_hangar_overlook_a_b",
+   "key": "SQ_HANGAR_OVERLOOK_A_B",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i47",
+   "kind": "Squad",
+   "name": "sq_hangar_overlook_a_c",
+   "key": "SQ_HANGAR_OVERLOOK_A_C",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i48",
+   "kind": "Squad",
+   "name": "hangar_block_a",
+   "key": "SQ_HANGAR_OVERLOOK_B_A",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i49",
+   "kind": "Squad",
+   "name": "hangar_block_b",
+   "key": "SQ_HANGAR_OVERLOOK_B_B",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i50",
+   "kind": "Squad",
+   "name": "hangar_block_c",
+   "key": "SQ_HANGAR_OVERLOOK_B_C",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i51",
+   "kind": "Squad",
+   "name": "sq_hangar_overlook_sniper",
+   "key": "SQ_HANGAR_OVERLOOK_SNIPER",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i52",
+   "kind": "Squad",
+   "name": "sq_hangar_a_a",
+   "key": "SQ_HANGAR_A_A",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i53",
+   "kind": "Squad",
+   "name": "sq_hangar_a_a_flank",
+   "key": "SQ_HANGAR_A_A_FLANK",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i54",
+   "kind": "Squad",
+   "name": "sq_hangar_a_b",
+   "key": "SQ_HANGAR_A_B",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i55",
+   "kind": "Squad",
+   "name": "sq_hangar_a_b_sniper",
+   "key": "SQ_HANGAR_A_B_SNIPER",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i56",
+   "kind": "Squad",
+   "name": "sq_hangar_fodder_a",
+   "key": "SQ_HANGAR_FODDER_A",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i57",
+   "kind": "Squad",
+   "name": "sq_hangar_fodder_b",
+   "key": "SQ_HANGAR_FODDER_B",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i58",
+   "kind": "Squad",
+   "name": "sq_hangar_fodder_c",
+   "key": "SQ_HANGAR_FODDER_C",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i59",
+   "kind": "Squad",
+   "name": "sq_friendlies_early",
+   "key": "SQ_FRIENDLIES_EARLY",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i60",
+   "kind": "Squad",
+   "name": "sq_friendlies_early_upper",
+   "key": "SQ_FRIENDLIES_EARLY_UPPER",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i61",
+   "kind": "Squad",
+   "name": "sq_red_guard_fake_fight_a",
+   "key": "SQ_RED_GUARD_FAKE_FIGHT_A",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i62",
+   "kind": "Squad",
+   "name": "sq_red_guard_fake_fight_b",
+   "key": "SQ_RED_GUARD_FAKE_FIGHT_B",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i63",
+   "kind": "Squad",
+   "name": "sq_red_guard_fake_fight_c",
+   "key": "SQ_RED_GUARD_FAKE_FIGHT_C",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i64",
+   "kind": "Squad",
+   "name": "sq_frame_cover_a",
+   "key": "SQ_FRAME_COVER_A",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i65",
+   "kind": "Squad",
+   "name": "sq_frame_cover_b",
+   "key": "SQ_FRAME_COVER_B",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i66",
+   "kind": "Squad",
+   "name": "sq_frame_cover_c",
+   "key": "SQ_FRAME_COVER_C",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i67",
+   "kind": "Squad",
+   "name": "sq_frame_throw_a",
+   "key": "SQ_FRAME_THROW_A",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i68",
+   "kind": "Squad",
+   "name": "sq_red_guard_throw_a",
+   "key": "SQ_RED_GUARD_THROW_A",
+   "object": "80b5036a"
+  },
+  {
+   "id": "i69",
+   "kind": "Slot",
+   "name": "pt_hangar_spawn",
+   "key": "PT_HANGAR_SPAWN",
+   "slotType": 31,
+   "object": "80b5036a"
+  },
+  {
+   "id": "i70",
+   "kind": "Slot",
+   "name": "obj_hangar",
+   "key": "OBJ_HANGAR",
+   "slotType": 3,
+   "object": "80b5036a"
+  },
+  {
+   "id": "i71",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_1",
+   "key": "SQUAD_KILL_CABAL_1",
+   "object": "80b50746"
+  },
+  {
+   "id": "i72",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_2",
+   "key": "SQUAD_KILL_CABAL_2",
+   "object": "80b50746"
+  },
+  {
+   "id": "i73",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_3",
+   "key": "SQUAD_KILL_CABAL_3",
+   "object": "80b50746"
+  },
+  {
+   "id": "i74",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_4",
+   "key": "SQUAD_KILL_CABAL_4",
+   "object": "80b50746"
+  },
+  {
+   "id": "i75",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_5",
+   "key": "SQUAD_KILL_CABAL_5",
+   "object": "80b50746"
+  },
+  {
+   "id": "i76",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_6",
+   "key": "SQUAD_KILL_CABAL_6",
+   "object": "80b50746"
+  },
+  {
+   "id": "i77",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_7",
+   "key": "SQUAD_KILL_CABAL_7",
+   "object": "80b50746"
+  },
+  {
+   "id": "i78",
+   "kind": "Squad",
+   "name": "squad_kill_cabal_8",
+   "key": "SQUAD_KILL_CABAL_8",
+   "object": "80b50746"
+  },
+  {
+   "id": "i79",
+   "kind": "Squad",
+   "name": "squad_cabal_dropoff_1",
+   "key": "SQUAD_CABAL_DROPOFF_1",
+   "object": "80b50746"
+  },
+  {
+   "id": "i80",
+   "kind": "Slot",
+   "name": "pt_plaza_spawn_init",
+   "key": "PT_PLAZA_SPAWN_INIT",
+   "slotType": 31,
+   "object": "80b50616"
+  },
+  {
+   "id": "i81",
+   "kind": "Slot",
+   "name": "obj_plaza_kill_cabal",
+   "key": "OBJ_PLAZA_KILL_CABAL",
+   "slotType": 3,
+   "object": "80b50746"
+  },
+  {
+   "id": "i82",
+   "kind": "Squad",
+   "name": "sq_zavala",
+   "key": "SQ_ZAVALA",
+   "object": "80b50746"
+  },
+  {
+   "id": "i83",
+   "kind": "Squad",
+   "name": "sq_plaza_interim_a_a",
+   "key": "SQ_PLAZA_INTERIM_A_A",
+   "object": "80b50746"
+  },
+  {
+   "id": "i84",
+   "kind": "Squad",
+   "name": "sq_plaza_interim_a_b",
+   "key": "SQ_PLAZA_INTERIM_A_B",
+   "object": "80b50746"
+  },
+  {
+   "id": "i85",
+   "kind": "Slot",
+   "name": "pt_plaza_zavala_meet",
+   "key": "PT_PLAZA_ZAVALA_MEET",
+   "slotType": 31,
+   "object": "80b50746"
+  },
+  {
+   "id": "i86",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_start_a",
+   "key": "SQ_PLAZA_REINFORCE_START_A",
+   "object": "80b50746"
+  },
+  {
+   "id": "i87",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_start_b",
+   "key": "SQ_PLAZA_REINFORCE_START_B",
+   "object": "80b50746"
+  },
+  {
+   "id": "i88",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_a_a",
+   "key": "SQ_PLAZA_REINFORCE_A_A",
+   "object": "80b50746"
+  },
+  {
+   "id": "i89",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_a_a_extra",
+   "key": "SQ_PLAZA_REINFORCE_A_A_EXTRA",
+   "object": "80b50746"
+  },
+  {
+   "id": "i90",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_a_b",
+   "key": "SQ_PLAZA_REINFORCE_A_B",
+   "object": "80b50746"
+  },
+  {
+   "id": "i91",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_a_c",
+   "key": "SQ_PLAZA_REINFORCE_A_C",
+   "object": "80b50746"
+  },
+  {
+   "id": "i92",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_a_d",
+   "key": "SQ_PLAZA_REINFORCE_A_D",
+   "object": "80b50746"
+  },
+  {
+   "id": "i93",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_a_d_extra",
+   "key": "SQ_PLAZA_REINFORCE_A_D_EXTRA",
+   "object": "80b50746"
+  },
+  {
+   "id": "i94",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_b_a",
+   "key": "SQ_PLAZA_REINFORCE_B_A",
+   "object": "80b50746"
+  },
+  {
+   "id": "i95",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_b_a_extra",
+   "key": "SQ_PLAZA_REINFORCE_B_A_EXTRA",
+   "object": "80b50746"
+  },
+  {
+   "id": "i96",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_b_b",
+   "key": "SQ_PLAZA_REINFORCE_B_B",
+   "object": "80b50746"
+  },
+  {
+   "id": "i97",
+   "kind": "Squad",
+   "name": "sq_plaza_reinforce_b_b_extra",
+   "key": "SQ_PLAZA_REINFORCE_B_B_EXTRA",
+   "object": "80b50746"
+  },
+  {
+   "id": "i98",
+   "kind": "Cue",
+   "name": "cue_52",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_52"
+  },
+  {
+   "id": "i99",
+   "kind": "Slot",
+   "name": "pt_defend",
+   "key": "PT_DEFEND",
+   "slotType": 31,
+   "object": "80b51058"
+  },
+  {
+   "id": "i100",
+   "kind": "Slot",
+   "name": "obj_plaza_reinforce",
+   "key": "OBJ_PLAZA_REINFORCE",
+   "slotType": 3,
+   "object": "80b50746"
+  },
+  {
+   "id": "i101",
+   "kind": "Squad",
+   "name": "sq_bazaar_start",
+   "key": "SQ_BAZAAR_START",
+   "object": "80b5011f"
+  },
+  {
+   "id": "i102",
+   "kind": "Squad",
+   "name": "sq_bazaar_tease_a",
+   "key": "SQ_BAZAAR_TEASE_A",
+   "object": "80b5011f"
+  },
+  {
+   "id": "i103",
+   "kind": "Squad",
+   "name": "sq_bazaar_tease_b",
+   "key": "SQ_BAZAAR_TEASE_B",
+   "object": "80b5011f"
+  },
+  {
+   "id": "i104",
+   "kind": "Squad",
+   "name": "sq_bazaar_a_a",
+   "key": "SQ_BAZAAR_A_A",
+   "object": "80b5011f"
+  },
+  {
+   "id": "i105",
+   "kind": "Squad",
+   "name": "sq_bazaar_a_b",
+   "key": "SQ_BAZAAR_A_B",
+   "object": "80b5011f"
+  },
+  {
+   "id": "i106",
+   "kind": "Squad",
+   "name": "sq_bazaar_a_c",
+   "key": "SQ_BAZAAR_A_C",
+   "object": "80b5011f"
+  },
+  {
+   "id": "i107",
+   "kind": "Squad",
+   "name": "sq_bazaar_finale",
+   "key": "SQ_BAZAAR_FINALE",
+   "object": "80b5011f"
+  },
+  {
+   "id": "i108",
+   "kind": "Squad",
+   "name": "sq_flame",
+   "key": "SQ_FLAME",
+   "object": "80b5011f"
+  },
+  {
+   "id": "i109",
+   "kind": "Squad",
+   "name": "sq_ikora_80b5011f",
+   "key": "SQ_IKORA_80B5011F",
+   "object": "80b5011f"
+  },
+  {
+   "id": "i110",
+   "kind": "Squad",
+   "name": "squad_cabal_blasted_1",
+   "key": "SQUAD_CABAL_BLASTED_1",
+   "object": "80b5011f"
+  },
+  {
+   "id": "i111",
+   "kind": "Squad",
+   "name": "squad_cabal_blasted_2",
+   "key": "SQUAD_CABAL_BLASTED_2",
+   "object": "80b5011f"
+  },
+  {
+   "id": "i112",
+   "kind": "Squad",
+   "name": "squad_cabal_blasted_3",
+   "key": "SQUAD_CABAL_BLASTED_3",
+   "object": "80b5011f"
+  },
+  {
+   "id": "i113",
+   "kind": "Squad",
+   "name": "squad_cabal_blasted_4",
+   "key": "SQUAD_CABAL_BLASTED_4",
+   "object": "80b5011f"
+  },
+  {
+   "id": "i114",
+   "kind": "Slot",
+   "name": "pt_bazaar",
+   "key": "PT_BAZAAR",
+   "slotType": 31,
+   "object": "80b5011f"
+  },
+  {
+   "id": "i115",
+   "kind": "Slot",
+   "name": "obj_bazaar",
+   "key": "OBJ_BAZAAR",
+   "slotType": 3,
+   "object": "80b5011f"
+  },
+  {
+   "id": "i116",
+   "kind": "Squad",
+   "name": "sq_pods",
+   "key": "SQ_PODS",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i117",
+   "kind": "Squad",
+   "name": "sq_damaged",
+   "key": "SQ_DAMAGED",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i118",
+   "kind": "Squad",
+   "name": "sq_damaged_hall_front",
+   "key": "SQ_DAMAGED_HALL_FRONT",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i119",
+   "kind": "Squad",
+   "name": "sq_damaged_hall_rear",
+   "key": "SQ_DAMAGED_HALL_REAR",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i120",
+   "kind": "Squad",
+   "name": "sq_damaged_hall_rear_anchor",
+   "key": "SQ_DAMAGED_HALL_REAR_ANCHOR",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i121",
+   "kind": "Squad",
+   "name": "sq_damaged_hall_melee",
+   "key": "SQ_DAMAGED_HALL_MELEE",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i122",
+   "kind": "Squad",
+   "name": "sq_damaged_hall_rear_stair",
+   "key": "SQ_DAMAGED_HALL_REAR_STAIR",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i123",
+   "kind": "Squad",
+   "name": "sq_damaged_hall_rear_stair_anchor",
+   "key": "SQ_DAMAGED_HALL_REAR_STAIR_ANCHOR",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i124",
+   "kind": "Slot",
+   "name": "d_ship_pod_door_a",
+   "key": "D_SHIP_POD_DOOR_A",
+   "slotType": 23,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i125",
+   "kind": "Slot",
+   "name": "d_ship_pod_door_b",
+   "key": "D_SHIP_POD_DOOR_B",
+   "slotType": 23,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i126",
+   "kind": "Slot",
+   "name": "d_ship_door_enter",
+   "key": "D_SHIP_DOOR_ENTER",
+   "slotType": 23,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i127",
+   "kind": "Slot",
+   "name": "pt_damaged",
+   "key": "PT_DAMAGED",
+   "slotType": 31,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i128",
+   "kind": "Slot",
+   "name": "obj_damaged",
+   "key": "OBJ_DAMAGED",
+   "slotType": 3,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i129",
+   "kind": "Squad",
+   "name": "sq_deck_front_a_a",
+   "key": "SQ_DECK_FRONT_A_A",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i130",
+   "kind": "Squad",
+   "name": "sq_deck_front_a_b",
+   "key": "SQ_DECK_FRONT_A_B",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i131",
+   "kind": "Squad",
+   "name": "sq_deck_front_a_c",
+   "key": "SQ_DECK_FRONT_A_C",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i132",
+   "kind": "Squad",
+   "name": "sq_deck_front_b_a",
+   "key": "SQ_DECK_FRONT_B_A",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i133",
+   "kind": "Squad",
+   "name": "sq_deck_front_b_b",
+   "key": "SQ_DECK_FRONT_B_B",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i134",
+   "kind": "Squad",
+   "name": "sq_deck_front_b_c",
+   "key": "SQ_DECK_FRONT_B_C",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i135",
+   "kind": "Squad",
+   "name": "sq_deck_front_c_a",
+   "key": "SQ_DECK_FRONT_C_A",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i136",
+   "kind": "Squad",
+   "name": "sq_deck_hardpoint_l",
+   "key": "SQ_DECK_HARDPOINT_L",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i137",
+   "kind": "Squad",
+   "name": "sq_deck_hardpoint_l2",
+   "key": "SQ_DECK_HARDPOINT_L2",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i138",
+   "kind": "Squad",
+   "name": "sq_deck_hardpoint_l_lower",
+   "key": "SQ_DECK_HARDPOINT_L_LOWER",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i139",
+   "kind": "Squad",
+   "name": "sq_deck_hardpoint_r",
+   "key": "SQ_DECK_HARDPOINT_R",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i140",
+   "kind": "Squad",
+   "name": "sq_deck_miniboss",
+   "key": "SQ_DECK_MINIBOSS",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i141",
+   "kind": "Slot",
+   "name": "pt_deck_start",
+   "key": "PT_DECK_START",
+   "slotType": 31,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i142",
+   "kind": "Squad",
+   "name": "sq_deck_ultra",
+   "key": "SQ_DECK_ULTRA",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i143",
+   "kind": "Slot",
+   "name": "pt_deck_boss",
+   "key": "PT_DECK_BOSS",
+   "slotType": 31,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i144",
+   "kind": "Slot",
+   "name": "obj_deck_ultra",
+   "key": "OBJ_DECK_ULTRA",
+   "slotType": 3,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i145",
+   "kind": "Squad",
+   "name": "sq_ship_door_melee",
+   "key": "SQ_SHIP_DOOR_MELEE",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i146",
+   "kind": "Squad",
+   "name": "sq_ship_door_melee_c",
+   "key": "SQ_SHIP_DOOR_MELEE_C",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i147",
+   "kind": "Squad",
+   "name": "sq_ship_door_melee_d",
+   "key": "SQ_SHIP_DOOR_MELEE_D",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i148",
+   "kind": "Squad",
+   "name": "sq_ship_door_melee_e",
+   "key": "SQ_SHIP_DOOR_MELEE_E",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i149",
+   "kind": "Squad",
+   "name": "sq_ship_entry_a_b",
+   "key": "SQ_SHIP_ENTRY_A_B",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i150",
+   "kind": "Squad",
+   "name": "sq_ship_entry_a_b_o",
+   "key": "SQ_SHIP_ENTRY_A_B_O",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i151",
+   "kind": "Squad",
+   "name": "sq_shield_snipes",
+   "key": "SQ_SHIELD_SNIPES",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i152",
+   "kind": "Squad",
+   "name": "sq_shield_front",
+   "key": "SQ_SHIELD_FRONT",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i153",
+   "kind": "Squad",
+   "name": "sq_shield_mid",
+   "key": "SQ_SHIELD_MID",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i154",
+   "kind": "Squad",
+   "name": "sq_shield_rear",
+   "key": "SQ_SHIELD_REAR",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i155",
+   "kind": "Squad",
+   "name": "sq_shield_melee",
+   "key": "SQ_SHIELD_MELEE",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i156",
+   "kind": "Squad",
+   "name": "sq_shield_gen_c",
+   "key": "SQ_SHIELD_GEN_C",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i157",
+   "kind": "Slot",
+   "name": "d_ship_door",
+   "key": "D_SHIP_DOOR",
+   "slotType": 23,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i158",
+   "kind": "Slot",
+   "name": "pt_matrix_door",
+   "key": "PT_MATRIX_DOOR",
+   "slotType": 31,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i159",
+   "kind": "Squad",
+   "name": "sq_shield_gen_a",
+   "key": "SQ_SHIELD_GEN_A",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i160",
+   "kind": "Squad",
+   "name": "sq_shield_gen_b",
+   "key": "SQ_SHIELD_GEN_B",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i161",
+   "kind": "Squad",
+   "name": "sq_ghaul",
+   "key": "SQ_GHAUL",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i162",
+   "kind": "Slot",
+   "name": "d_ghaul_descent",
+   "key": "D_GHAUL_DESCENT",
+   "slotType": 23,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i163",
+   "kind": "Slot",
+   "name": "pt_engine_room_ghaul",
+   "key": "PT_ENGINE_ROOM_GHAUL",
+   "slotType": 31,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i164",
+   "kind": "Slot",
+   "name": "obj_ghaul",
+   "key": "OBJ_GHAUL",
+   "slotType": 3,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i165",
+   "kind": "Squad",
+   "name": "sq_escape_a",
+   "key": "SQ_ESCAPE_A",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i166",
+   "kind": "Squad",
+   "name": "sq_escape_b",
+   "key": "SQ_ESCAPE_B",
+   "object": "80b508f4"
+  },
+  {
+   "id": "i167",
+   "kind": "Slot",
+   "name": "m_directive_sensor_80b50913",
+   "key": "M_DIRECTIVE_SENSOR_80B50913",
+   "slotType": 68,
+   "object": "80b50913"
+  },
+  {
+   "id": "i168",
+   "kind": "Slot",
+   "name": "m_dialog_sensor_80b50913",
+   "key": "M_DIALOG_SENSOR_80B50913",
+   "slotType": 53,
+   "object": "80b50913"
+  },
+  {
+   "id": "i169",
+   "kind": "State",
+   "name": "state_intro_cinematic",
+   "key": "STATE_80B500BC_0002_0001_80B500B1"
+  },
+  {
+   "id": "i170",
+   "kind": "Slot",
+   "name": "prefab_hro_cinematic",
+   "key": "PREFAB_HRO_CINEMATIC",
+   "slotType": 6,
+   "object": "80b5012d"
+  },
+  {
+   "id": "i171",
+   "kind": "State",
+   "name": "state_underwatch",
+   "key": "STATE_80B500BC_0009_0000_80B500BB"
+  },
+  {
+   "id": "i172",
+   "kind": "Slot",
+   "name": "pt_start",
+   "key": "PT_START",
+   "slotType": 31,
+   "object": "80b5167e"
+  },
+  {
+   "id": "i173",
+   "kind": "Slot",
+   "name": "pt_weapon",
+   "key": "PT_WEAPON",
+   "slotType": 31,
+   "object": "80b5167e"
+  },
+  {
+   "id": "i174",
+   "kind": "Slot",
+   "name": "pt_player_near_shaxx",
+   "key": "PT_PLAYER_NEAR_SHAXX",
+   "slotType": 31,
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i175",
+   "kind": "Slot",
+   "name": "pt_weapon_complete",
+   "key": "PT_WEAPON_COMPLETE",
+   "slotType": 31,
+   "object": "80b5168c"
+  },
+  {
+   "id": "i176",
+   "kind": "Slot",
+   "name": "pt_goto_military",
+   "key": "PT_GOTO_MILITARY",
+   "slotType": 31,
+   "object": "80b5168c"
+  },
+  {
+   "id": "i177",
+   "kind": "State",
+   "name": "state_80b500bc_0004_0000_80b500b3",
+   "key": "STATE_80B500BC_0004_0000_80B500B3"
+  },
+  {
+   "id": "i178",
+   "kind": "Slot",
+   "name": "pt_goto_plaza_80b50b91",
+   "key": "PT_GOTO_PLAZA_80B50B91",
+   "slotType": 31,
+   "object": "80b50b91"
+  },
+  {
+   "id": "i179",
+   "kind": "Slot",
+   "name": "pt_dialogue_hangar_window",
+   "key": "PT_DIALOGUE_HANGAR_WINDOW",
+   "slotType": 31,
+   "object": "80b50b91"
+  },
+  {
+   "id": "i180",
+   "kind": "State",
+   "name": "state_80b500bc_0006_0000_80b500b6",
+   "key": "STATE_80B500BC_0006_0000_80B500B6"
+  },
+  {
+   "id": "i181",
+   "kind": "Slot",
+   "name": "pt_goto_plaza_80b51058",
+   "key": "PT_GOTO_PLAZA_80B51058",
+   "slotType": 31,
+   "object": "80b51058"
+  },
+  {
+   "id": "i182",
+   "kind": "Slot",
+   "name": "pt_goto_boulevard",
+   "key": "PT_GOTO_BOULEVARD",
+   "slotType": 31,
+   "object": "80b51058"
+  },
+  {
+   "id": "i183",
+   "kind": "State",
+   "name": "state_intro",
+   "key": "STATE_80B500BC_0000_0000_80B500AD"
+  },
+  {
+   "id": "i184",
+   "kind": "Slot",
+   "name": "pt_goto_speaker",
+   "key": "PT_GOTO_SPEAKER",
+   "slotType": 31,
+   "object": "80b5097f"
+  },
+  {
+   "id": "i185",
+   "kind": "Slot",
+   "name": "pt_goto_sky_battle",
+   "key": "PT_GOTO_SKY_BATTLE",
+   "slotType": 31,
+   "object": "80b5097f"
+  },
+  {
+   "id": "i186",
+   "kind": "State",
+   "name": "state_80b500bc_0008_0000_80b500b8",
+   "key": "STATE_80B500BC_0008_0000_80B500B8"
+  },
+  {
+   "id": "i187",
+   "kind": "Slot",
+   "name": "pt_skybattle_3",
+   "key": "PT_SKYBATTLE_3",
+   "slotType": 31,
+   "object": "80b51397"
+  },
+  {
+   "id": "i188",
+   "kind": "Slot",
+   "name": "pt_dialog_almost_there",
+   "key": "PT_DIALOG_ALMOST_THERE",
+   "slotType": 31,
+   "object": "80b51397"
+  },
+  {
+   "id": "i189",
+   "kind": "Slot",
+   "name": "pt_destroy_battleship",
+   "key": "PT_DESTROY_BATTLESHIP",
+   "slotType": 31,
+   "object": "80b51397"
+  },
+  {
+   "id": "i190",
+   "kind": "Slot",
+   "name": "pt_goto_end",
+   "key": "PT_GOTO_END",
+   "slotType": 31,
+   "object": "80b51397"
+  },
+  {
+   "id": "i191",
+   "kind": "Directive",
+   "name": "defend_your_home",
+   "key": "DEFEND_YOUR_HOME"
+  },
+  {
+   "id": "i192",
+   "kind": "Slot",
+   "name": "ap_ikora",
+   "key": "AP_IKORA",
+   "slotType": 47,
+   "object": "80b5167e"
+  },
+  {
+   "id": "i193",
+   "kind": "Cue",
+   "name": "cue_1",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_1"
+  },
+  {
+   "id": "i194",
+   "kind": "Directive",
+   "name": "gear_up_for_the_fight",
+   "key": "GEAR_UP_FOR_THE_FIGHT"
+  },
+  {
+   "id": "i195",
+   "kind": "Slot",
+   "name": "slot_0009_80b5168c",
+   "key": "SLOT_0009_80B5168C",
+   "slotType": 47,
+   "object": "80b5168c"
+  },
+  {
+   "id": "i196",
+   "kind": "Slot",
+   "name": "d_gun_door",
+   "key": "D_GUN_DOOR",
+   "slotType": 23,
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i197",
+   "kind": "Directive",
+   "name": "find_zavala_432d2c96",
+   "key": "FIND_ZAVALA_432D2C96"
+  },
+  {
+   "id": "i198",
+   "kind": "Slot",
+   "name": "ap_goto_military_80b5168c",
+   "key": "AP_GOTO_MILITARY_80B5168C",
+   "slotType": 47,
+   "object": "80b5168c"
+  },
+  {
+   "id": "i199",
+   "kind": "Cue",
+   "name": "cue_30",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_30"
+  },
+  {
+   "id": "i200",
+   "kind": "Slot",
+   "name": "slot_0004_80b5168c",
+   "key": "SLOT_0004_80B5168C",
+   "slotType": 60,
+   "object": "80b5168c"
+  },
+  {
+   "id": "i201",
+   "kind": "Directive",
+   "name": "join_zavala_in_the_plaza",
+   "key": "JOIN_ZAVALA_IN_THE_PLAZA"
+  },
+  {
+   "id": "i202",
+   "kind": "Slot",
+   "name": "slot_0008_80b50b91",
+   "key": "SLOT_0008_80B50B91",
+   "slotType": 47,
+   "object": "80b50b91"
+  },
+  {
+   "id": "i203",
+   "kind": "Cue",
+   "name": "cue_34",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_34"
+  },
+  {
+   "id": "i204",
+   "kind": "Slot",
+   "name": "slot_0004_80b50b91",
+   "key": "SLOT_0004_80B50B91",
+   "slotType": 60,
+   "object": "80b50b91"
+  },
+  {
+   "id": "i205",
+   "kind": "Directive",
+   "name": "fight_with_zavala",
+   "key": "FIGHT_WITH_ZAVALA"
+  },
+  {
+   "id": "i206",
+   "kind": "Slot",
+   "name": "ap_plaza",
+   "key": "AP_PLAZA",
+   "slotType": 47,
+   "object": "80b51058"
+  },
+  {
+   "id": "i207",
+   "kind": "Cue",
+   "name": "cue_40",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_40"
+  },
+  {
+   "id": "i208",
+   "kind": "Slot",
+   "name": "slot_0019_80b51058",
+   "key": "SLOT_0019_80B51058",
+   "slotType": 60,
+   "object": "80b51058"
+  },
+  {
+   "id": "i209",
+   "kind": "Directive",
+   "name": "defend_the_tower",
+   "key": "DEFEND_THE_TOWER"
+  },
+  {
+   "id": "i210",
+   "kind": "Cue",
+   "name": "cue_51",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_51"
+  },
+  {
+   "id": "i211",
+   "kind": "Directive",
+   "name": "leave_the_plaza_and_find_the_speaker_e68735ed",
+   "key": "LEAVE_THE_PLAZA_AND_FIND_THE_SPEAKER_E68735ED"
+  },
+  {
+   "id": "i212",
+   "kind": "Slot",
+   "name": "slot_000e_80b51058",
+   "key": "SLOT_000E_80B51058",
+   "slotType": 47,
+   "object": "80b51058"
+  },
+  {
+   "id": "i213",
+   "kind": "Cue",
+   "name": "cue_59",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_59"
+  },
+  {
+   "id": "i214",
+   "kind": "Directive",
+   "name": "leave_the_plaza_and_find_the_speaker",
+   "key": "LEAVE_THE_PLAZA_AND_FIND_THE_SPEAKER"
+  },
+  {
+   "id": "i215",
+   "kind": "Slot",
+   "name": "slot_000a_80b5097f",
+   "key": "SLOT_000A_80B5097F",
+   "slotType": 47,
+   "object": "80b5097f"
+  },
+  {
+   "id": "i216",
+   "kind": "Cue",
+   "name": "cue_74",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_74"
+  },
+  {
+   "id": "i217",
+   "kind": "Slot",
+   "name": "tv_bazaar_80b5097f",
+   "key": "TV_BAZAAR_80B5097F",
+   "slotType": 60,
+   "object": "80b5097f"
+  },
+  {
+   "id": "i218",
+   "kind": "Directive",
+   "name": "board_the_command_ship",
+   "key": "BOARD_THE_COMMAND_SHIP"
+  },
+  {
+   "id": "i219",
+   "kind": "Slot",
+   "name": "slot_0004_80b5097f",
+   "key": "SLOT_0004_80B5097F",
+   "slotType": 47,
+   "object": "80b5097f"
+  },
+  {
+   "id": "i220",
+   "kind": "Cue",
+   "name": "cue_75",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_75"
+  },
+  {
+   "id": "i221",
+   "kind": "Cue",
+   "name": "cue_76",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_76"
+  },
+  {
+   "id": "i222",
+   "kind": "Slot",
+   "name": "slot_0009_80b5097f",
+   "key": "SLOT_0009_80B5097F",
+   "slotType": 60,
+   "object": "80b5097f"
+  },
+  {
+   "id": "i223",
+   "kind": "Directive",
+   "name": "disable_the_shields",
+   "key": "DISABLE_THE_SHIELDS"
+  },
+  {
+   "id": "i224",
+   "kind": "Slot",
+   "name": "ap_locate",
+   "key": "AP_LOCATE",
+   "slotType": 47,
+   "object": "80b51397"
+  },
+  {
+   "id": "i225",
+   "kind": "Cue",
+   "name": "cue_77",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_77"
+  },
+  {
+   "id": "i226",
+   "kind": "Slot",
+   "name": "gl_cabal_console",
+   "key": "GL_CABAL_CONSOLE",
+   "slotType": 65,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i227",
+   "kind": "Directive",
+   "name": "reach_the_shield_generator",
+   "key": "REACH_THE_SHIELD_GENERATOR"
+  },
+  {
+   "id": "i228",
+   "kind": "Slot",
+   "name": "ap_destroy_battleship",
+   "key": "AP_DESTROY_BATTLESHIP",
+   "slotType": 47,
+   "object": "80b51397"
+  },
+  {
+   "id": "i229",
+   "kind": "Cue",
+   "name": "cue_79",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_79"
+  },
+  {
+   "id": "i230",
+   "kind": "Cue",
+   "name": "cue_84",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_84"
+  },
+  {
+   "id": "i231",
+   "kind": "Slot",
+   "name": "slot_0011_80b51397",
+   "key": "SLOT_0011_80B51397",
+   "slotType": 60,
+   "object": "80b51397"
+  },
+  {
+   "id": "i232",
+   "kind": "Directive",
+   "name": "overload_the_generator",
+   "key": "OVERLOAD_THE_GENERATOR"
+  },
+  {
+   "id": "i233",
+   "kind": "Slot",
+   "name": "slot_000c_80b51397",
+   "key": "SLOT_000C_80B51397",
+   "slotType": 47,
+   "object": "80b51397"
+  },
+  {
+   "id": "i234",
+   "kind": "Cue",
+   "name": "cue_86",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_86"
+  },
+  {
+   "id": "i235",
+   "kind": "Slot",
+   "name": "d_vents_a",
+   "key": "D_VENTS_A",
+   "slotType": 23,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i236",
+   "kind": "Slot",
+   "name": "d_vents_b",
+   "key": "D_VENTS_B",
+   "slotType": 23,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i237",
+   "kind": "Slot",
+   "name": "d_vents_c",
+   "key": "D_VENTS_C",
+   "slotType": 23,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i238",
+   "kind": "Slot",
+   "name": "d_shield_gen_a",
+   "key": "D_SHIELD_GEN_A",
+   "slotType": 23,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i239",
+   "kind": "Slot",
+   "name": "d_shield_gen_b",
+   "key": "D_SHIELD_GEN_B",
+   "slotType": 23,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i240",
+   "kind": "Slot",
+   "name": "d_shield_gen_collar",
+   "key": "D_SHIELD_GEN_COLLAR",
+   "slotType": 23,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i241",
+   "kind": "Slot",
+   "name": "shield_generator_a",
+   "key": "SHIELD_GENERATOR_A",
+   "slotType": 4,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i242",
+   "kind": "Slot",
+   "name": "shield_generator_b",
+   "key": "SHIELD_GENERATOR_B",
+   "slotType": 4,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i243",
+   "kind": "Slot",
+   "name": "shield_generator_c",
+   "key": "SHIELD_GENERATOR_C",
+   "slotType": 4,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i244",
+   "kind": "Directive",
+   "name": "escape_the_command_ship",
+   "key": "ESCAPE_THE_COMMAND_SHIP"
+  },
+  {
+   "id": "i245",
+   "kind": "Slot",
+   "name": "slot_0010_80b51397",
+   "key": "SLOT_0010_80B51397",
+   "slotType": 47,
+   "object": "80b51397"
+  },
+  {
+   "id": "i246",
+   "kind": "Cue",
+   "name": "cue_91",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_91"
+  },
+  {
+   "id": "i247",
+   "kind": "Cue",
+   "name": "cue_92",
+   "key": "M_DIALOG_SENSOR_80B50913.CUE_92"
+  },
+  {
+   "id": "i248",
+   "kind": "Slot",
+   "name": "d_ship_door_exit",
+   "key": "D_SHIP_DOOR_EXIT",
+   "slotType": 23,
+   "object": "80b508f4"
+  },
+  {
+   "id": "i249",
+   "kind": "Slot",
+   "name": "scout_rifle_interactable",
+   "key": "SCOUT_RIFLE_INTERACTABLE",
+   "slotType": 4,
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i250",
+   "kind": "Slot",
+   "name": "pt_hangar_artie_lookat",
+   "key": "PT_HANGAR_ARTIE_LOOKAT",
+   "slotType": 31,
+   "object": "80b5036a"
+  },
+  {
+   "id": "i251",
+   "kind": "Slot",
+   "name": "d_gating_amanda_start",
+   "key": "D_GATING_AMANDA_START",
+   "slotType": 23,
+   "object": "80b5036a"
+  },
+  {
+   "id": "i252",
+   "kind": "Slot",
+   "name": "d_gating_amanda_hangar",
+   "key": "D_GATING_AMANDA_HANGAR",
+   "slotType": 23,
+   "object": "80b5036a"
+  },
+  {
+   "id": "i253",
+   "kind": "Slot",
+   "name": "d_door_gating",
+   "key": "D_DOOR_GATING",
+   "slotType": 23,
+   "object": "80b5011f"
+  },
+  {
+   "id": "i327",
+   "kind": "Slot",
+   "name": "seq_door_explosion",
+   "key": "SEQ_DOOR_EXPLOSION",
+   "slotType": 5,
+   "object": "80b5011f"
+  },
+  {
+   "id": "i329",
+   "kind": "Scene",
+   "name": "scene",
+   "key": ""
+  },
+  {
+   "id": "i334",
+   "kind": "Scene",
+   "name": "scene_cabal_first_contact",
+   "key": "SCENE_CABAL_FIRST_CONTACT",
+   "object": "80b50ca7",
+   "events": [
+    "0x385838EC",
+    "0xAE7CC69C",
+    "0x50B1B667",
+    "0xE404F85C",
+    "0x9645E0E8"
+   ]
+  },
+  {
+   "id": "i337",
+   "kind": "Scene",
+   "name": "sc_centurion_intro",
+   "key": "SC_CENTURION_INTRO",
+   "events": [
+    "0x385838EC",
+    "0x6F51AC66",
+    "0xCFB8CB39"
+   ],
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i338",
+   "kind": "Slot",
+   "name": "pt_hero_moment",
+   "key": "PT_HERO_MOMENT",
+   "slotType": 31,
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i339",
+   "kind": "Scene",
+   "name": "sc_hero_moment_underwatch",
+   "key": "SC_HERO_MOMENT_UNDERWATCH",
+   "events": [
+    "0x385838EC",
+    "0x7118EEB4",
+    "0xC4068A2E",
+    "0x790C2A95",
+    "0xF321E553",
+    "0xC85F34BE",
+    "0x1E5E1445"
+   ],
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i345",
+   "kind": "Slot",
+   "name": "scene_cabal_first_contact_2",
+   "key": "SCENE_CABAL_FIRST_CONTACT",
+   "slotType": 43,
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i353",
+   "kind": "Scene",
+   "name": "scene_cayde_golden_gun",
+   "key": "SCENE_CAYDE_GOLDEN_GUN",
+   "events": [
+    "0x385838EC",
+    "0x454631D4",
+    "0x50E394F0",
+    "0x3DDBBCAE",
+    "0x6F51AC66",
+    "0x823BA3E4",
+    "0xF68B1353",
+    "0xFA6B38B9",
+    "0xEB915F90",
+    "0xF557A014",
+    "0x8BEE4699",
+    "0x6569E6D6",
+    "0x292F56B1",
+    "0x90C8DEB3",
+    "0xAA4A863F",
+    "0x47B0375F",
+    "0xCFB8CB39"
+   ],
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i371",
+   "kind": "Slot",
+   "name": "pt_sc_underwatch_intro_stand",
+   "key": "PT_SC_UNDERWATCH_INTRO_STAND",
+   "slotType": 31,
+   "object": "80b50ca7"
+  },
+  {
+   "id": "i372",
+   "kind": "Scene",
+   "name": "sc_pyro_intro",
+   "key": "SC_PYRO_INTRO",
+   "events": [
+    "0x385838EC",
+    "0x6D9BD9B3"
+   ],
+   "object": "80b5011f"
+  },
+  {
+   "id": "i431",
+   "kind": "Slot",
+   "name": "cayde_golden_gun",
+   "key": "PT_CIV_RUN_B",
+   "slotType": 31
+  }
+ ],
+ "custom": [],
+ "nodes": [
+  {
+   "id": 298,
+   "type": "s_begin",
+   "x": -178.66668701171875,
+   "y": -26.000015258789062,
+   "next": null,
+   "params": {}
+  },
+  {
+   "id": 299,
+   "type": "trigger",
+   "x": 7.99993896484375,
+   "y": 54.33332824707031,
+   "next": null,
+   "params": {
+    "trigger": "i37"
+   }
+  },
+  {
+   "id": 340,
+   "type": "line",
+   "x": 433.9998779296875,
+   "y": 349.0000305175781,
+   "next": 341,
+   "params": {
+    "sensor": "i168",
+    "cue": "i27"
+   }
+  },
+  {
+   "id": 341,
+   "type": "line",
+   "x": 433.9998779296875,
+   "y": 381.0000305175781,
+   "next": null,
+   "params": {
+    "sensor": "i168",
+    "cue": "i28"
+   }
+  },
+  {
+   "id": 368,
+   "type": "scene",
+   "x": 321.333251953125,
+   "y": 153.66668701171875,
+   "next": 373,
+   "params": {
+    "mode": "start",
+    "scene": "i334"
+   }
+  },
+  {
+   "id": 373,
+   "type": "scene_event",
+   "x": 321.333251953125,
+   "y": 185.66668701171875,
+   "next": null,
+   "params": {
+    "event": 1,
+    "scene": "i334"
+   }
+  },
+  {
+   "id": 374,
+   "type": "scene_event",
+   "x": 433.9998779296875,
+   "y": 282.0000305175781,
+   "next": 378,
+   "params": {
+    "event": 2,
+    "scene": "i334"
+   }
+  },
+  {
+   "id": 378,
+   "type": "scene_end",
+   "x": 433.9998779296875,
+   "y": 317.0000305175781,
+   "next": 340,
+   "params": {
+    "scene": "i334"
+   }
+  },
+  {
+   "id": 379,
+   "type": "spawn",
+   "x": -378.66680908203125,
+   "y": 216.46870803833008,
+   "next": 394,
+   "params": {
+    "squad": "i10",
+    "objective": "i30"
+   }
+  },
+  {
+   "id": 390,
+   "type": "device",
+   "x": 105.33331298828125,
+   "y": 379.8021125793457,
+   "next": null,
+   "params": {
+    "transition": "open",
+    "device": "i36"
+   }
+  },
+  {
+   "id": 394,
+   "type": "spawn",
+   "x": -378.66680908203125,
+   "y": 248.46870803833008,
+   "next": 398,
+   "params": {
+    "squad": "i22",
+    "objective": "i30"
+   }
+  },
+  {
+   "id": 398,
+   "type": "spawn",
+   "x": -378.66680908203125,
+   "y": 280.4687080383301,
+   "next": 399,
+   "params": {
+    "squad": "i23",
+    "objective": "i30"
+   }
+  },
+  {
+   "id": 399,
+   "type": "spawn",
+   "x": -378.66680908203125,
+   "y": 312.4687080383301,
+   "next": null,
+   "params": {
+    "squad": "i24",
+    "objective": "i30"
+   }
+  },
+  {
+   "id": 406,
+   "type": "cleared",
+   "x": -259.3333435058594,
+   "y": 450.46875381469727,
+   "next": null,
+   "params": {
+    "squads": [
+     "i22",
+     "i23",
+     "i24"
+    ]
+   }
+  },
+  {
+   "id": 411,
+   "type": "trigger",
+   "x": 684.6666870117188,
+   "y": 61.13539505004883,
+   "next": null,
+   "params": {
+    "trigger": "i34"
+   }
+  },
+  {
+   "id": 413,
+   "type": "scene",
+   "x": 1001.9999389648438,
+   "y": 173.46858596801758,
+   "next": null,
+   "params": {
+    "mode": "start",
+    "scene": "i337"
+   }
+  },
+  {
+   "id": 414,
+   "type": "scene_event",
+   "x": 1501.6668701171875,
+   "y": 280,
+   "next": 415,
+   "params": {
+    "event": 2,
+    "scene": "i337"
+   }
+  },
+  {
+   "id": 415,
+   "type": "scene_event",
+   "x": 1501.6668701171875,
+   "y": 315,
+   "next": null,
+   "params": {
+    "event": 3,
+    "scene": "i337"
+   }
+  },
+  {
+   "id": 416,
+   "type": "scene_event",
+   "x": 1501.6668701171875,
+   "y": 245,
+   "next": 414,
+   "params": {
+    "event": 1,
+    "scene": "i337"
+   }
+  },
+  {
+   "id": 417,
+   "type": "spawn",
+   "x": 933.6668701171875,
+   "y": 249,
+   "next": 428,
+   "params": {
+    "squad": "i33",
+    "objective": "i35"
+   }
+  },
+  {
+   "id": 425,
+   "type": "all",
+   "x": 1001.9999389648438,
+   "y": 142.46858596801758,
+   "next": 413,
+   "params": {}
+  },
+  {
+   "id": 428,
+   "type": "cleared",
+   "x": 933.6668701171875,
+   "y": 281,
+   "next": 435,
+   "params": {
+    "squads": [
+     "i33"
+    ]
+   }
+  },
+  {
+   "id": 435,
+   "type": "scene",
+   "x": 933.6668701171875,
+   "y": 313,
+   "next": 436,
+   "params": {
+    "mode": "start",
+    "scene": "i353"
+   }
+  },
+  {
+   "id": 436,
+   "type": "scene_event",
+   "x": 933.6668701171875,
+   "y": 345,
+   "next": 437,
+   "params": {
+    "event": 3,
+    "scene": "i353"
+   }
+  },
+  {
+   "id": 437,
+   "type": "scene_event",
+   "x": 933.6668701171875,
+   "y": 380,
+   "next": null,
+   "params": {
+    "event": 5,
+    "scene": "i353"
+   }
+  }
+ ],
+ "wires": [
+  {
+   "from": 299,
+   "to": 379
+  },
+  {
+   "from": 299,
+   "to": 368
+  },
+  {
+   "from": 373,
+   "to": 390
+  },
+  {
+   "from": 373,
+   "to": 374
+  },
+  {
+   "from": 399,
+   "to": 406
+  },
+  {
+   "from": 298,
+   "to": 299
+  },
+  {
+   "from": 298,
+   "to": 411
+  },
+  {
+   "from": 413,
+   "to": 417
+  },
+  {
+   "from": 413,
+   "to": 416
+  },
+  {
+   "from": 411,
+   "to": 425
+  }
+ ],
+ "graphs": {
+  "scene": {
+   "nodes": [],
+   "wires": []
+  },
+  "campaign": {
+   "nodes": [],
+   "wires": []
+  },
+  "freeroam": {
+   "nodes": [],
+   "wires": []
+  }
+ },
+ "mission": {
+  "tabs": [
+   {
+    "id": "flow",
+    "name": "Flow",
+    "nodes": [
+     {
+      "id": 309,
+      "type": "m_mission",
+      "x": 40,
+      "y": 30,
+      "next": 310,
+      "params": {
+       "key": "towerfall",
+       "sensor": "i167",
+       "voice": "i168",
+       "spawn": ""
+      }
+     },
+     {
+      "id": 310,
+      "type": "m_cut",
+      "x": 40,
+      "y": 106,
+      "next": 311,
+      "params": {
+       "cinematic": "i170",
+       "state": "i169"
+      }
+     },
+     {
+      "id": 311,
+      "type": "m_leg",
+      "x": 40,
+      "y": 152,
+      "next": null,
+      "params": {
+       "id": "underwatch",
+       "state": "i171"
+      }
+     },
+     {
+      "id": 312,
+      "type": "m_story",
+      "x": 640,
+      "y": 30,
+      "next": 313,
+      "params": {}
+     },
+     {
+      "id": 313,
+      "type": "m_step",
+      "x": 640,
+      "y": 61,
+      "next": 314,
+      "params": {
+       "id": "home",
+       "directive": "i191",
+       "marker": "i192"
+      }
+     },
+     {
+      "id": 314,
+      "type": "m_run",
+      "x": 640,
+      "y": 121,
+      "next": 355,
+      "params": {
+       "scene": "t254"
+      }
+     },
+     {
+      "id": 317,
+      "type": "m_run",
+      "x": 640,
+      "y": 183,
+      "next": 318,
+      "params": {
+       "scene": "t297"
+      }
+     },
+     {
+      "id": 318,
+      "type": "m_say",
+      "x": 640,
+      "y": 214,
+      "next": 319,
+      "params": {
+       "cue": "i193"
+      }
+     },
+     {
+      "id": 319,
+      "type": "m_until_trigger",
+      "x": 640,
+      "y": 246,
+      "next": 320,
+      "params": {
+       "triggers": [
+        "i174"
+       ]
+      }
+     },
+     {
+      "id": 320,
+      "type": "m_step",
+      "x": 640,
+      "y": 292,
+      "next": 321,
+      "params": {
+       "id": "gear",
+       "directive": "i194",
+       "marker": "i195"
+      }
+     },
+     {
+      "id": 321,
+      "type": "m_move",
+      "x": 640,
+      "y": 352,
+      "next": 322,
+      "params": {
+       "transition": "open",
+       "devices": [
+        "i196"
+       ]
+      }
+     },
+     {
+      "id": 322,
+      "type": "m_run",
+      "x": 640,
+      "y": 384,
+      "next": 323,
+      "params": {
+       "scene": "t301"
+      }
+     },
+     {
+      "id": 323,
+      "type": "m_until_interact",
+      "x": 640,
+      "y": 415,
+      "next": 324,
+      "params": {
+       "object": "i249"
+      }
+     },
+     {
+      "id": 324,
+      "type": "m_step",
+      "x": 640,
+      "y": 461,
+      "next": 325,
+      "params": {
+       "id": "find",
+       "directive": "i197",
+       "marker": "i198"
+      }
+     },
+     {
+      "id": 325,
+      "type": "m_say",
+      "x": 640,
+      "y": 521,
+      "next": 326,
+      "params": {
+       "cue": "i199",
+       "filter": "i200"
+      }
+     },
+     {
+      "id": 326,
+      "type": "m_until_trigger",
+      "x": 640,
+      "y": 553,
+      "next": null,
+      "params": {
+       "triggers": [
+        "i176"
+       ]
+      }
+     },
+     {
+      "id": 355,
+      "type": "m_run",
+      "x": 640,
+      "y": 152,
+      "next": 317,
+      "params": {
+       "scene": "t344"
+      }
+     }
+    ],
+    "wires": []
+   },
+   {
+    "id": "t254",
+    "name": "cast",
+    "leg": 311,
+    "nodes": [
+     {
+      "id": 255,
+      "type": "s_begin",
+      "x": 40,
+      "y": 30,
+      "next": null,
+      "params": {}
+     }
+    ],
+    "wires": []
+   },
+   {
+    "id": "t297",
+    "name": "first_contact",
+    "leg": 311,
+    "nodes": null,
+    "wires": null
+   },
+   {
+    "id": "t301",
+    "name": "post_gun",
+    "leg": 311,
+    "nodes": [
+     {
+      "id": 302,
+      "type": "s_begin",
+      "x": 40,
+      "y": 30,
+      "next": 303,
+      "params": {}
+     },
+     {
+      "id": 303,
+      "type": "trigger",
+      "x": 40,
+      "y": 61,
+      "next": 308,
+      "params": {
+       "trigger": "i41"
+      }
+     },
+     {
+      "id": 308,
+      "type": "s_out",
+      "x": 40,
+      "y": 93,
+      "next": null,
+      "params": {
+       "name": "cleared"
+      }
+     }
+    ],
+    "wires": []
+   },
+   {
+    "id": "t344",
+    "name": "cayde",
+    "leg": 311,
+    "nodes": [
+     {
+      "id": 349,
+      "type": "s_begin",
+      "x": 223.3333740234375,
+      "y": 77.80208206176758,
+      "next": null,
+      "params": {}
+     },
+     {
+      "id": 403,
+      "type": "scene",
+      "x": 230.666748046875,
+      "y": 198.80208206176758,
+      "next": 433,
+      "params": {
+       "mode": "start",
+       "scene": "i353"
+      }
+     },
+     {
+      "id": 409,
+      "type": "scene_event",
+      "x": 230.666748046875,
+      "y": 265.8020820617676,
+      "next": 410,
+      "params": {
+       "event": 1,
+       "scene": "i353"
+      }
+     },
+     {
+      "id": 410,
+      "type": "scene_event",
+      "x": 230.666748046875,
+      "y": 300.8020820617676,
+      "next": null,
+      "params": {
+       "event": 3,
+       "scene": "i353"
+      }
+     },
+     {
+      "id": 433,
+      "type": "delay",
+      "x": 230.666748046875,
+      "y": 230.80208206176758,
+      "next": 409,
+      "params": {
+       "seconds": 1
+      }
+     }
+    ],
+    "wires": []
+   }
+  ],
+  "active": "t297"
+ },
+ "collapsed": [],
+ "seq": 441
+}
